@@ -23,7 +23,7 @@
   overflow: hidden;
   height: 100%;
   width: 100%;
-  background-color: #06002c; }
+  background-color: #5f2907; }
   #intro-wrapper a {
     text-decoration: none;
     cursor: pointer; }
@@ -37,7 +37,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(6, 0, 44, 0.95); }
+  background-color: rgba(95, 41, 7, 0.95); }
 
 #intro-logo {
   border-width: 2px;
@@ -85,7 +85,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(6, 0, 44, 0.9);
+  background-color: #5f2907;
   top: 4000px;
   display: none; }
 

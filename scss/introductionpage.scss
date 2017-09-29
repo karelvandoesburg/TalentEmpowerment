@@ -3,7 +3,7 @@
     overflow: hidden;
     height:100%;
     width:100%;
-    background-color: rgba(6, 0, 44, 1);
+    background-color: $background;
     a {
         text-decoration: none;
         cursor: pointer;
@@ -20,7 +20,7 @@
     position: absolute;
     width:100%;
     height:100%;
-    background-color: rgba(6, 0, 44, 0.95);
+    background-color: rgba(95, 41, 7, 0.95);
 }
 
 #intro-logo{

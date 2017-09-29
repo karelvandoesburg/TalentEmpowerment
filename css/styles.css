@@ -23,7 +23,7 @@
   overflow: hidden;
   height: 100%;
   width: 100%;
-  background-color: #5f2907; }
+  background-color: rgba(51, 33, 30, 0.985); }
   #intro-wrapper a {
     text-decoration: none;
     cursor: pointer; }
@@ -37,7 +37,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(95, 41, 7, 0.95); }
+  background-color: rgba(51, 33, 30, 0.985); }
 
 #intro-logo {
   border-width: 2px;
@@ -75,7 +75,7 @@
   animation: hoverText 2.5s ease none; }
 
 #start-button:hover {
-  color: coral !important; }
+  color: #2cdf11 !important; }
 
 #start-text {
   font-family: 'Anton';
@@ -85,7 +85,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #5f2907;
+  background-color: rgba(51, 33, 30, 0.985);
   top: 4000px;
   display: none; }
 

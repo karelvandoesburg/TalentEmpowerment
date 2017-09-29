@@ -1,0 +1,18 @@
+#test {
+    width:700px;
+    height:450px;
+    background-color:red;
+    position: relative;
+    overflow:visible;
+    margin-left: 200px;
+    margin-top:200px
+}
+
+#test2 {
+    width:1200px;
+    height:200px;
+    background-color:blue;
+    position: absolute;
+}
+
+/* de foto's moeten dus met javascript gemaakt worden, maar dit werkt wel! */

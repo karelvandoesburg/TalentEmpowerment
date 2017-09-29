@@ -27,16 +27,17 @@ var $homepicture6 = $('#home-picture-6');
 var $homepicture7 = $('#home-picture-7');
 var $homepicture8 = $('#home-picture-8');
 var $Road2Tokyo = $('#Road2Tokyo');
+var screenHeight = $(window).height();
 
 function setMarginTop() {
     $sectionwrapper.css({
-        'top' : $(window).height() + 'px'
+        'top' : screenHeight + 'px'
     });
 }
 
 function backgroundAnimation() {
     $cover.velocity({
-        'top' : '1000px'
+        'top' : screenHeight + 'px'
     }, 1500, 'easeInOutQuart')
     
     $intro.velocity({

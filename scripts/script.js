@@ -30,6 +30,13 @@ function changeButtonSize() {
     })
 }
 
+function changeButtonHeight() {
+    var height = $intro.height();
+    $startbutton.css({
+        'marginTop' : height 
+    })
+}
+
 function changeBackgroundSize() {
     var height_picture = $(window).height();
     $('#intro-wrapper').css({"height" : height_picture});

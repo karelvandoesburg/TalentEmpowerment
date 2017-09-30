@@ -20,7 +20,6 @@
     position: absolute;
     width:100%;
     height:100%;
-//    background-color: rgba(52, 20, 4, 1);
     background-color: rgba(51, 33, 30, 0.985);
 }
 
@@ -41,11 +40,10 @@
     background-color:rgba(255, 183, 133, 0.20);
     width:30%;
     position: absolute;
-    left:54%;
+    left:56%;
     top:-400px;
     border-style: solid;
     border-color: white;
-    text-align: center;
 }
 
 #start-button {
@@ -57,6 +55,7 @@
     letter-spacing: 0.10em;
     filter: blur(0.3px);
     cursor: pointer;
+    text-align: center;
     animation: hoverText 2.5s ease none;
 }
 
@@ -65,6 +64,11 @@
 }
 
 #start-text {
+    text-align: left;
     font-family: 'Anton';
+    position:relative;
     color:white;
+    margin-left:20px;
+    margin-top:10px;
+    line-height: 140px;
 }

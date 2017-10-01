@@ -11,7 +11,7 @@ function goToContextPage() {
     }, {duration: 1300, easing: 'easeInOutQuart'})
     
     $start.velocity({
-        'top' : '-400px'
+        'top' : '-500px'
     }, {duration: 1300, easing: 'easeInOutQuart', delay: 200})
         
     $sectionwrapper.velocity({

@@ -31,7 +31,7 @@ function moveDownLogo() {
 }
 
 function moveDownText() {
-    var height = $intro.height() * 0.5;
+    var height = $intro.height() * 0.42;
     $start.velocity({
         'top' : height + 'px'
     }, {duration: 1300, easing: 'easeInOutQuart', delay: 400})

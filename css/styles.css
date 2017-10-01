@@ -72,7 +72,7 @@
   width: 30%;
   position: absolute;
   left: 56%;
-  top: -400px;
+  top: -500px;
   border-style: solid;
   border-color: white; }
 
@@ -114,8 +114,7 @@
   position: relative;
   float: left;
   opacity: 0;
-  overflow: hidden;
-  text-align: center; }
+  overflow: hidden; }
   .home-grid img {
     position: absolute;
     -webkit-transition: 0.75s;

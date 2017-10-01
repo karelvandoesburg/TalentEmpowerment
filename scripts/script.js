@@ -54,25 +54,58 @@ function changeAllImageDimensions() {
 function changeImageDimension(image,ratio,pictureContainer) {
     var containerratio = pictureContainer.width()/pictureContainer.height();
     if(ratio > containerratio) {
-        image.css({'height' : pictureContainer.height() + 'px'})
+        image.css({
+            'height' : pictureContainer.height() + 'px',
+            'width' : 'auto'
+        })
     }
     else {
-        image.css({'width' : pictureContainer.width()})
+        image.css({
+            'width' : pictureContainer.width() + 'px',
+            'height' : 'auto'
+        })
     }
 }
 
 function placeAllImagesInCenter() {
-    placeImageInCenter($photo1,$homepicture1);
-    placeImageInCenter($photo2,$homepicture3);
-    placeImageInCenter($photo3,$homepicture5);
-    placeImageInCenter($photo4,$homepicture6);
+    placeImageInCenter($photo1,picture1ratio,$homepicture1);
+    placeImageInCenter($photo2,picture2ratio,$homepicture3);
+    placeImageInCenter($photo3,picture3ratio,$homepicture5);
+    placeImageInCenter($photo4,picture4ratio,$homepicture6);
 }
 
-function placeImageInCenter(image,pictureContainer) {
-    var margintop = (pictureContainer.height()-image.height())/2;
-    var marginleft = (pictureContainer.width()-image.width())/2;
+function placeImageInCenter(image,ratio,pictureContainer) {
+    var width = calculateImageWidth(image,ratio,pictureContainer);
+    var height = calculateImageHeight(image,ratio,pictureContainer);
+    var margintop = (pictureContainer.height()-height)/2;
+    var marginleft = (pictureContainer.width()-width)/2;
     image.css({
         'top' : margintop + 'px',
         'left' : marginleft + 'px'
     })
+}
+
+function calculateImageHeight(image, ratio, pictureContainer) {
+    var containerratio = pictureContainer.width()/pictureContainer.height();
+    var height;
+    if(ratio > containerratio) {
+        height = pictureContainer.height();
+    }
+    else {
+        height = pictureContainer.width() / ratio;
+    }
+    return height;
+}
+
+function calculateImageWidth(image, ratio, pictureContainer) {
+    console.log(pictureContainer);
+    var containerratio = pictureContainer.width()/pictureContainer.height();
+    var width = 0;
+    if(ratio > containerratio) {
+        width = pictureContainer.height() * ratio;
+    }
+    else {
+        width = pictureContainer.width();
+    }
+    return width;
 }

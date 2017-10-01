@@ -12,6 +12,7 @@
     float:left;
     opacity:0;
     overflow: hidden;
+    cursor: pointer;
     img {
         position:absolute;
         transition: 0.75s;
@@ -24,7 +25,7 @@
         color: $offwhite;
         text-transform: uppercase;
         font-weight: lighter;
-        margin-top:150px;
+        margin-top:130px;
         margin-left:50px;
     }
     h2 {
@@ -34,13 +35,28 @@
         color: $offwhite;
         text-transform: uppercase;
         margin-left:50px;
-        margin-top:250px;
+        margin-top:230px;
         font-weight: bold;
+    }
+    h2:after{
+      content:"";
+      position:absolute;
+      left:0;
+      bottom:0;
+      right:0;
+      margin:auto;
+      background:$offwhite;
+      height:2px;
     }
 }
 
 .home-grid:hover img {
     transform: scale(1.15);
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
 }
 
 #grid-1 {
@@ -67,6 +83,13 @@
 #home-picture-3 {
     width: 50%;
     height: 100%;
+    h1, h2 {
+        width:90%;
+        text-align:right;
+    }
+    h2:after {
+        display: block;
+    }
 }
 
 #home-picture-5 {

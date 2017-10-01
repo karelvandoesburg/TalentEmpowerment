@@ -5,8 +5,7 @@ function changeSize() {
     changeButtonSize();
     changeBackgroundSize();
     setMarginTop();
-    changeAllImageDimensions();
-    placeAllImagesInCenter();
+    changeAllImages();
 }
 
 function setMarginTop() {
@@ -44,6 +43,20 @@ function changeBackgroundSize() {
     $('#intro-wrapper').css({"height" : height_picture});
 }
 
+function changeAllImages() {
+    changeImage($photo1,picture1ratio,$homepicture1);
+    changeImage($photo2,picture2ratio,$homepicture3);
+    changeImage($photo3,picture3ratio,$homepicture5);
+    changeImage($photo4,picture4ratio,$homepicture6);
+}
+
+function changeImage(image,ratio,pictureContainer) {
+    var width = calculateImageWidth(image,ratio,pictureContainer);
+    var height = calculateImageHeight(image,ratio,pictureContainer);
+    changeImageDimension(image,ratio,pictureContainer);
+    placeImageInCenter(image,pictureContainer,width,height);
+}
+
 function changeAllImageDimensions() {
     changeImageDimension($photo1,picture1ratio,$homepicture1);
     changeImageDimension($photo2,picture2ratio,$homepicture3);
@@ -74,9 +87,7 @@ function placeAllImagesInCenter() {
     placeImageInCenter($photo4,picture4ratio,$homepicture6);
 }
 
-function placeImageInCenter(image,ratio,pictureContainer) {
-    var width = calculateImageWidth(image,ratio,pictureContainer);
-    var height = calculateImageHeight(image,ratio,pictureContainer);
+function placeImageInCenter(image,pictureContainer,width,height) {
     var margintop = (pictureContainer.height()-height)/2;
     var marginleft = (pictureContainer.width()-width)/2;
     image.css({
@@ -98,9 +109,8 @@ function calculateImageHeight(image, ratio, pictureContainer) {
 }
 
 function calculateImageWidth(image, ratio, pictureContainer) {
-    console.log(pictureContainer);
     var containerratio = pictureContainer.width()/pictureContainer.height();
-    var width = 0;
+    var width;
     if(ratio > containerratio) {
         width = pictureContainer.height() * ratio;
     }

@@ -2,6 +2,7 @@ $startbutton.on('click', function(){
     $sectionwrapper.show();
     goToContextPage();
     showHomeGrid();
+    placeAllImagesInCenter();
 });
 
 function goToContextPage() {

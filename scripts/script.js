@@ -49,7 +49,10 @@ function changeBackgroundSize() {
 //}
 
 function placeAllImagesInCenter() {
-    placeImageInCenter($test,$homepicture1);
+    placeImageInCenter($photo1,$homepicture1);
+    placeImageInCenter($photo2,$homepicture3);
+    placeImageInCenter($photo3,$homepicture5);
+    placeImageInCenter($photo4,$homepicture6);
 }
 
 function placeImageInCenter(image,pictureContainer) {

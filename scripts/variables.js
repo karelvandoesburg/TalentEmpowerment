@@ -24,5 +24,5 @@ var $photo3 = $('#photo3');
 var $photo4 = $('#photo4');
 var picture1ratio = 3321/1671;
 var picture2ratio = 3134/2333;
-var picture3ratio = 1280/724;
-var picture4ratio = 756/422;
+var picture3ratio = 2612/1181;
+var picture4ratio = 1400/478;

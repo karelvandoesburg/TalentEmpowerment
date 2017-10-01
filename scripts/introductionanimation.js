@@ -10,7 +10,6 @@ function backgroundAnimation() {
     moveDownPicture();
     moveDownLogo();
     moveDownText();
-    placeAllImagesInCenter();
 }
 
 function moveDownCover() {

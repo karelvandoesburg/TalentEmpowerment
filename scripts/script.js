@@ -5,6 +5,7 @@ function changeSize() {
     changeButtonSize();
     changeBackgroundSize();
     setMarginTop();
+    changeAllImageDimensions();
     placeAllImagesInCenter();
 }
 
@@ -43,10 +44,22 @@ function changeBackgroundSize() {
     $('#intro-wrapper').css({"height" : height_picture});
 }
 
-//function changeImageDimension(image,ratio,pictureContainer) {
-//    var containerratio = pictureContainer.width/picturecontainer.height;
-//    if()
-//}
+function changeAllImageDimensions() {
+    changeImageDimension($photo1,picture1ratio,$homepicture1);
+    changeImageDimension($photo2,picture2ratio,$homepicture3);
+    changeImageDimension($photo3,picture3ratio,$homepicture5);
+    changeImageDimension($photo4,picture4ratio,$homepicture6);
+}
+
+function changeImageDimension(image,ratio,pictureContainer) {
+    var containerratio = pictureContainer.width()/pictureContainer.height();
+    if(ratio > containerratio) {
+        image.css({'height' : pictureContainer.height() + 'px'})
+    }
+    else {
+        image.css({'width' : pictureContainer.width()})
+    }
+}
 
 function placeAllImagesInCenter() {
     placeImageInCenter($photo1,$homepicture1);

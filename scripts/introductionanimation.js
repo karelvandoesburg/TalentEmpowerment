@@ -10,6 +10,7 @@ function backgroundAnimation() {
     moveDownPicture();
     moveDownLogo();
     moveDownText();
+    placeAllImagesInCenter();
 }
 
 function moveDownCover() {
@@ -35,4 +36,4 @@ function moveDownText() {
     $start.velocity({
         'top' : height + 'px'
     }, {duration: 1300, easing: 'easeInOutQuart', delay: 400})
-}
+} 

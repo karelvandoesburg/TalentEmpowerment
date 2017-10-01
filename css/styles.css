@@ -95,15 +95,17 @@
   display: none; }
 
 .home-grid {
+  position: relative;
   float: left;
   opacity: 0;
   overflow: hidden;
   text-align: center; }
   .home-grid img {
-    height: 100%;
+    position: absolute;
     -webkit-transition: 0.75s;
     -o-transition: 0.75s;
-    transition: 0.75s; }
+    transition: 0.75s;
+    text-align: center; }
 
 .home-grid:hover img {
   -webkit-transform: scale(1.15);
@@ -111,7 +113,7 @@
   transform: scale(1.15); }
 
 #grid-1 {
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 66%; }
 
@@ -120,7 +122,9 @@
   height: 100%;
   z-index: 1; }
   #home-picture-1 img {
-    width: 2000px; }
+    width: 900px;
+    top: -500px;
+    left: 0px; }
 
 .emboss-1 {
   position: absolute;
@@ -149,8 +153,7 @@
   height: 100%; }
 
 #grid-2 {
-  position: absolute;
-  top: 66%;
+  position: relative;
   width: 100%;
   height: 34%;
   text-align: center; }

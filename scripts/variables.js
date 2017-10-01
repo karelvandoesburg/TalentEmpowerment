@@ -18,3 +18,4 @@ var $homepicture7 = $('#home-picture-7');
 var $homepicture8 = $('#home-picture-8');
 var $Road2Tokyo = $('#Road2Tokyo');
 var screenHeight = $(window).height();
+var $test = $('#test');

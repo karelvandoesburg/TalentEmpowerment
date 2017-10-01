@@ -51,10 +51,10 @@ function showLastPicture(picture,del,dur) {
     }, {duration: dur, easing: 'easeOutQuad', delay: del})
 }
 
-$homepicture1.on('click', function() {
-    setHighZIndex($Road2Tokyo);
-    showRoad2Tokyo();
-})
+//$homepicture1.on('click', function() {
+//    setHighZIndex($Road2Tokyo);
+//    showRoad2Tokyo();
+//})
 
 function setHighZIndex(object) {
     object.css({'z-index':'5'})

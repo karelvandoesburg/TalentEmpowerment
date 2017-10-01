@@ -5,6 +5,7 @@ function changeSize() {
     changeButtonSize();
     changeBackgroundSize();
     setMarginTop();
+    placeAllImagesInCenter();
 }
 
 function setMarginTop() {
@@ -40,4 +41,22 @@ function changeButtonHeight() {
 function changeBackgroundSize() {
     var height_picture = $(window).height();
     $('#intro-wrapper').css({"height" : height_picture});
+}
+
+//function changeImageDimension(image,ratio,pictureContainer) {
+//    var containerratio = pictureContainer.width/picturecontainer.height;
+//    if()
+//}
+
+function placeAllImagesInCenter() {
+    placeImageInCenter($test,$homepicture1);
+}
+
+function placeImageInCenter(image,pictureContainer) {
+    var margintop = (pictureContainer.height()-image.height())/2;
+    var marginleft = (pictureContainer.width()-image.width())/2;
+    image.css({
+        'top' : margintop + 'px',
+        'left' : marginleft + 'px'
+    })
 }

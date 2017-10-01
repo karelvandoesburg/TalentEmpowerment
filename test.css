@@ -9,10 +9,10 @@
 }
 
 #test2 {
-    width:1200px;
+    width:300px;
     height:200px;
     background-color:blue;
-    position: absolute;
+    margin: 0 auto;
 }
 
 /* de foto's moeten dus met javascript gemaakt worden, maar dit werkt wel! */

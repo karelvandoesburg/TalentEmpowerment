@@ -3,6 +3,22 @@
   src: url("fonts/Oswald/Oswald-Light.ttf"); }
 
 @font-face {
+  font-family: Oswald-ExtraLight;
+  src: url("fonts/Oswald/Oswald-ExtraLight.ttf"); }
+
+@font-face {
+  font-family: Oswald-Regular;
+  src: url("fonts/Oswald/Oswald-Regular.ttf"); }
+
+@font-face {
+  font-family: Oswald-Medium;
+  src: url("fonts/Oswald/Oswald-Medium.ttf"); }
+
+@font-face {
+  font-family: Oswald-Bold;
+  src: url("fonts/Oswald/Oswald-Bold.ttf"); }
+
+@font-face {
   font-family: CreteRound-SemiBoldItalic;
   src: url("fonts/CreteRound/CreteRound-Italic.ttf"); }
 
@@ -106,6 +122,24 @@
     -o-transition: 0.75s;
     transition: 0.75s;
     text-align: center; }
+  .home-grid h1 {
+    font-size: 100px;
+    font-family: Oswald-ExtraLight;
+    position: absolute;
+    color: #f8f9fb;
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin-top: 150px;
+    margin-left: 50px; }
+  .home-grid h2 {
+    font-size: 100px;
+    font-family: Oswald-Regular;
+    position: absolute;
+    color: #f8f9fb;
+    text-transform: uppercase;
+    margin-left: 50px;
+    margin-top: 250px;
+    font-weight: bold; }
 
 .home-grid:hover img {
   -webkit-transform: scale(1.15);
@@ -122,13 +156,13 @@
   height: 100%;
   z-index: 1; }
 
-.emboss-1 {
+.emboss {
   position: absolute;
   -webkit-box-shadow: inset 1px 1px 0px rgba(255, 255, 255, 0.15), inset -1px -1px 0px rgba(0, 0, 0, 0.15);
   box-shadow: inset 1px 1px 0px rgba(255, 255, 255, 0.15), inset -1px -1px 0px rgba(0, 0, 0, 0.15);
   top: 0;
   bottom: 0;
-  width: 50%;
+  width: 100%;
   height: 100%; }
 
 #home-picture-3 {
@@ -137,15 +171,6 @@
 
 #home-picture-5 {
   width: 50%;
-  height: 100%; }
-
-.emboss-2 {
-  position: absolute;
-  -webkit-box-shadow: inset 2x 2px 0px rgba(255, 255, 255, 0.15), inset -2px -2px 0px rgba(0, 0, 0, 0.15);
-  box-shadow: inset 2x 2px 0px rgba(255, 255, 255, 0.15), inset -2px -2px 0px rgba(0, 0, 0, 0.15);
-  top: 0;
-  bottom: 0;
-  width: 25%;
   height: 100%; }
 
 #grid-2 {

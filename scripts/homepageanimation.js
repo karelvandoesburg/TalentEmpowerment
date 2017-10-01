@@ -22,16 +22,13 @@ function goToContextPage() {
 }
 
 function showHomeGrid() {
-    var dur = 500;
-    var extra = 500;
-    showFirstPicture($homepicture1, 1400, dur+1000);
-    showHomePicture($homepicture2, 1250+extra, dur);
-    showHomePicture($homepicture3, 1350+extra, dur);
-    showHomePicture($homepicture4, 1400+extra, dur);
-    showHomePicture($homepicture5, 1500+extra, dur+250);
-    showHomePicture($homepicture6, 1300+extra, dur+150);
-    showHomePicture($homepicture7, 1450+extra, dur+250);
-    showLastPicture($homepicture8, 1550+extra, dur+1500);
+    var dur = 800;
+    var del = 1600
+    var extra = 200;
+    showHomePicture($homepicture1, del, dur);
+    showHomePicture($homepicture3, del, dur);
+    showHomePicture($homepicture5, del, dur);
+    showHomePicture($homepicture6, del, dur);
 }
 
 function showFirstPicture(picture,del,dur) {
@@ -43,13 +40,13 @@ function showFirstPicture(picture,del,dur) {
 function showHomePicture(picture,del,dur) {
     picture.velocity({
         'opacity':'1'
-    }, {duration: dur, easing: 'easeOutSine', delay: del})
+    }, {duration: dur, easing: 'swing', delay: del})
 }
 
 function showLastPicture(picture,del,dur) {
     picture.velocity({
         'opacity':'1'
-    }, {duration: dur, easing: 'easeOutQuad', delay: del})
+    }, {duration: dur, easing: 'easeInOutQuad', delay: del})
 }
 
 //$homepicture1.on('click', function() {

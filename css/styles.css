@@ -150,15 +150,6 @@
     margin-left: 50px;
     margin-top: 210px;
     font-weight: bold; }
-  .home-grid h2:after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
-    background: #f8f9fb;
-    height: 2px; }
 
 .home-grid:hover img {
   -webkit-transform: scale(1.12);
@@ -186,6 +177,15 @@
   width: 50%;
   height: 100%;
   z-index: 1; }
+  #home-picture-1 h2:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background: #f8f9fb;
+    height: 2px; }
 
 .emboss {
   position: absolute;
@@ -210,11 +210,23 @@
   #home-picture-3 h1, #home-picture-3 h2 {
     text-align: right; }
   #home-picture-3 h2:after {
-    position: absolute; }
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background: #f8f9fb;
+    height: 2px; }
 
 #home-picture-5 {
   width: 50%;
   height: 100%; }
+  #home-picture-5 h2 {
+    margin-top: 160px;
+    text-align: left; }
+  #home-picture-5 span {
+    color: #2cdf11; }
 
 #grid-2 {
   position: relative;
@@ -225,6 +237,9 @@
 #home-picture-6 {
   width: 50%;
   height: 100%; }
+  #home-picture-6 h2 {
+    margin-top: 160px;
+    text-align: right; }
 
 #Road2Tokyo {
   opacity: 0;

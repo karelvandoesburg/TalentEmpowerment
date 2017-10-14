@@ -38,16 +38,6 @@
         margin-top:210px;
         font-weight: bold;
     }
-    h2:after{
-      content:"";
-      position:absolute;
-      left:0;
-      bottom:0;
-      right:0;
-      margin:auto;
-      background:$offwhite;
-      height:2px;
-    }
 }
 
 .home-grid:hover img {
@@ -77,6 +67,16 @@
     width: 50%;
     height: 100%;
     z-index: 1;
+    h2:after{
+      content:"";
+      position:absolute;
+      left:0;
+      bottom:0;
+      right:0;
+      margin:auto;
+      background:$offwhite;
+      height:2px;
+    }
 }
 
 .emboss {
@@ -105,14 +105,28 @@
     h1, h2 {
         text-align:right;
     }
-    h2:after {
-        position: absolute;
+    h2:after{
+      content:"";
+      position:absolute;
+      left:0;
+      bottom:0;
+      right:0;
+      margin:auto;
+      background:$offwhite;
+      height:2px;
     }
 }
 
 #home-picture-5 {
     width: 50%;
     height: 100%;
+    h2 {
+        margin-top:160px;
+        text-align: left;
+    }
+    span {
+        color:$green;
+    }
 }
 
 #grid-2 {
@@ -125,6 +139,10 @@
 #home-picture-6 {
     width: 50%;
     height: 100%;
+    h2 {
+        margin-top:160px;
+        text-align:right;
+    }
 }
 
 #Road2Tokyo {

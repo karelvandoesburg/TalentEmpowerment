@@ -1,6 +1,5 @@
 $(window).ready(function() {
     setMarginTop();
-    changeButtonSize();
     changeBackgroundSize();
     backgroundAnimation();
 });
@@ -31,7 +30,8 @@ function moveDownLogo() {
 }
 
 function moveDownText() {
-    var height = $intro.height() * 0.42;
+    var windowheight = getCorrectHeight();
+    var height = $intro.height() * 0.60-173;
     $start.velocity({
         'top' : height + 'px'
     }, {duration: 1300, easing: 'easeInOutQuart', delay: 400})

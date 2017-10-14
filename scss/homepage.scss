@@ -40,6 +40,15 @@
     }
 }
 
+.blur {
+    -webkit-filter: blur(25px);
+    -moz-filter: blur(25px);
+    -o-filter: blur(25px);
+    -ms-filter: blur(25px);
+    filter: blur(25px);
+    transition: 0.7s;
+}
+
 .home-grid:hover img {
     transform: scale(1.12);
     -webkit-filter: blur(10px);

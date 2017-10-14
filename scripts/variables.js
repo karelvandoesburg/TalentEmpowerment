@@ -25,4 +25,5 @@ var $photo4 = $('#photo4');
 var picture1ratio = 3321/1671;
 var picture2ratio = 3134/2333;
 var picture3ratio = 2612/1181;
-var picture4ratio = 3054/1818;
+var picture4ratio = 2998/2529;
+var $homegrid = $('.home-grid');

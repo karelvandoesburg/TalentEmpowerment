@@ -128,9 +128,9 @@
   cursor: pointer; }
   .home-grid img {
     position: absolute;
-    -webkit-transition: 0.75s;
-    -o-transition: 0.75s;
-    transition: 0.75s;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
     text-align: center; }
   .home-grid h1 {
     font-size: 75px;
@@ -161,9 +161,9 @@
     height: 2px; }
 
 .home-grid:hover img {
-  -webkit-transform: scale(1.15);
-  -ms-transform: scale(1.15);
-  transform: scale(1.15);
+  -webkit-transform: scale(1.12);
+  -ms-transform: scale(1.12);
+  transform: scale(1.12);
   -webkit-filter: blur(10px);
   -moz-filter: blur(10px);
   -o-filter: blur(10px);

@@ -15,7 +15,7 @@
     cursor: pointer;
     img {
         position:absolute;
-        transition: 0.75s;
+        transition: 0.4s;
         text-align: center;
     }
     h1 {
@@ -51,7 +51,7 @@
 }
 
 .home-grid:hover img {
-    transform: scale(1.15);
+    transform: scale(1.12);
     -webkit-filter: blur(10px);
     -moz-filter: blur(10px);
     -o-filter: blur(10px);

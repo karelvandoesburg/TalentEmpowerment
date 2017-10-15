@@ -157,9 +157,9 @@
   -o-filter: blur(25px);
   -ms-filter: blur(25px);
   filter: blur(25px);
-  -webkit-transition: 0.7s;
-  -o-transition: 0.7s;
-  transition: 0.7s; }
+  -webkit-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s; }
 
 .home-grid:hover img {
   -webkit-transform: scale(1.12);
@@ -271,8 +271,9 @@
   width: 1250px;
   height: 500px;
   background-color: white;
-  z-index: 4;
-  border-radius: 10px 10px 10px 10px; }
+  z-index: -1;
+  border-radius: 10px 10px 10px 10px;
+  opacity: 0; }
 
 #shield {
   width: 100%;

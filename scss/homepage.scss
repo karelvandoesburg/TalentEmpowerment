@@ -46,7 +46,7 @@
     -o-filter: blur(25px);
     -ms-filter: blur(25px);
     filter: blur(25px);
-    transition: 0.7s;
+    transition: 0.1s;
 }
 
 .home-grid:hover img {
@@ -175,8 +175,9 @@
     width:1250px;
     height:500px;
     background-color: white;
-    z-index: 4;
+    z-index: -1;
     border-radius: 10px 10px 10px 10px;
+    opacity:0;
 }
 
 #shield {

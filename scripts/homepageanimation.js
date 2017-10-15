@@ -51,12 +51,16 @@ function showLastPicture(picture,del,dur) {
 }
 
 $homepicture1.on('click', function() {
-    $homegrid.addClass('blur');
-    
+    showContext($homepicture1);
 })
 
-function setHighZIndex(object) {
-    object.css({'z-index':'5'})
+function showContext(picture) {
+    $homegrid.addClass('blur');
+    $context.css({'zIndex' : '5',})
+    $shield.css({'zIndex' : '5'})
+    $context.velocity({
+        'opacity' : '1'
+    }, {duration: 80, easing: 'easeInOutSine'})
 }
 
 function showRoad2Tokyo() {

@@ -29,3 +29,4 @@ var picture4ratio = 2998/2529;
 var $homegrid = $('.home-grid');
 var $context = $('#context');
 var $shield = $('#shield');
+var $close = $('.close');

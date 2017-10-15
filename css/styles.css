@@ -157,9 +157,9 @@
   -o-filter: blur(25px);
   -ms-filter: blur(25px);
   filter: blur(25px);
-  -webkit-transition: 0.1s;
-  -o-transition: 0.1s;
-  transition: 0.1s; }
+  -webkit-transition: 0.15s;
+  -o-transition: 0.15s;
+  transition: 0.15s; }
 
 .home-grid:hover img {
   -webkit-transform: scale(1.12);

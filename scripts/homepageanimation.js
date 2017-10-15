@@ -50,6 +50,10 @@ function showLastPicture(picture,del,dur) {
     }, {duration: dur, easing: 'easeInOutQuad', delay: del})
 }
 
+$close.on('click', function() {
+    hideContext();  
+})
+
 $homepicture1.on('click', function() {
     showContext($homepicture1);
 })
@@ -60,11 +64,16 @@ function showContext(picture) {
     $shield.css({'zIndex' : '4'})
     $context.velocity({
         'opacity' : '1'
-    }, {duration: 80, easing: 'easeInOutSine'})
+    }, {duration: 150, easing: 'swing'})
 }
 
-function showRoad2Tokyo() {
-    $Road2Tokyo.velocity({
-        'opacity' : '1'
-    }, {duration: 500, easing: 'swing'})
+function hideContext(picture) {
+    $shield.css({'zIndex' : '-1'})
+    $homegrid.removeClass('blur');
+    $context.velocity({
+        'opacity' : '0'
+    }, {duration: 200, easing: 'swing'})
+    setTimeout(function() {
+        $context.css({'zIndex' : '-1'})},200);
+    
 }

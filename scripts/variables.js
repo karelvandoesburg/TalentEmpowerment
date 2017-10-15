@@ -30,3 +30,4 @@ var $homegrid = $('.home-grid');
 var $context = $('#context');
 var $shield = $('#shield');
 var $close = $('.close');
+var $bar = $('#bar');

@@ -59,17 +59,19 @@ $homepicture1.on('click', function() {
 })
 
 function showContext(picture) {
-    $homegrid.addClass('blur');
     $context.css({'zIndex' : '5',})
     $shield.css({'zIndex' : '4'})
     $context.velocity({
         'opacity' : '1'
-    }, {duration: 150, easing: 'swing'})
+    }, {duration: 100, easing: 'swing'})
+    $homegrid.addClass('blur');
+    $bar.addClass('blur');
 }
 
 function hideContext(picture) {
     $shield.css({'zIndex' : '-1'})
     $homegrid.removeClass('blur');
+    $bar.removeClass('blur');
     $context.velocity({
         'opacity' : '0'
     }, {duration: 200, easing: 'swing'})

@@ -375,6 +375,10 @@
   margin-left: -200px;
   top: -20px; }
 
+#voor-topsporters {
+  height: 2000px;
+  max-height: 1000px; }
+
 * {
   margin: 0px auto; }
 

@@ -57,7 +57,7 @@ $homepicture1.on('click', function() {
 function showContext(picture) {
     $homegrid.addClass('blur');
     $context.css({'zIndex' : '5',})
-    $shield.css({'zIndex' : '5'})
+    $shield.css({'zIndex' : '4'})
     $context.velocity({
         'opacity' : '1'
     }, {duration: 80, easing: 'easeInOutSine'})

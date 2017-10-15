@@ -265,7 +265,7 @@
 
 #context {
   position: absolute;
-  top: 50px;
+  top: 30px;
   left: 50%;
   margin-left: -625px;
   width: 1250px;
@@ -328,6 +328,18 @@
     color: transparent; }
   100% {
     color: black; } }
+
+h1 {
+  margin-left: 100px;
+  margin-top: 100px;
+  margin-right: 100px;
+  text-align: center;
+  font-family: Raleway-Medium;
+  color: #585757;
+  font-size: 30px;
+  letter-spacing: 0.05em;
+  -webkit-filter: blur(0.3px);
+  filter: blur(0.3px); }
 
 * {
   margin: 0px auto; }

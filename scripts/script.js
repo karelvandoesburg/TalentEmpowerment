@@ -10,7 +10,7 @@ function changeSize() {
 }
 
 function setContextHeight() {
-    $context.height($(window).height()-70);
+    $context.height($(window).height()-60);
 }
 
 function setMarginTop() {

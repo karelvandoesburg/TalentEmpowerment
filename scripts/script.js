@@ -63,15 +63,19 @@ function changeAllImageDimensions() {
 function changeImageDimension(image,ratio,pictureContainer) {
     var containerratio = pictureContainer.width()/pictureContainer.height();
     if(ratio > containerratio) {
+        var height = pictureContainer.height();
+        var width = ratio*height;
         image.css({
-            'height' : pictureContainer.height() + 'px',
-            'width' : 'auto'
+            'height' : height + 'px',
+            'width' : width + 'px'
         })
     }
     else {
+        var width = pictureContainer.width();
+        var height = width/ratio;
         image.css({
-            'width' : pictureContainer.width() + 'px',
-            'height' : 'auto'
+            'width' : width + 'px',
+            'height' : height + 'px'
         })
     }
 }

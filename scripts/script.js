@@ -6,6 +6,11 @@ function changeSize() {
     setMarginTop();
     changeAllImages();
     setStartButtonMargin();
+    setContextHeight();
+}
+
+function setContextHeight() {
+    $context.height($(window).height()-70);
 }
 
 function setMarginTop() {

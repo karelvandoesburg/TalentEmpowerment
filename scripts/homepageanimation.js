@@ -3,6 +3,7 @@ $startbutton.on('click', function(){
     goToContextPage();
     showHomeGrid();
     changeAllImages();
+    setContextHeight();
 });
 
 function goToContextPage() {
@@ -51,6 +52,7 @@ function showLastPicture(picture,del,dur) {
 
 $homepicture1.on('click', function() {
     $homegrid.addClass('blur');
+    
 })
 
 function setHighZIndex(object) {

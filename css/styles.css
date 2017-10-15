@@ -34,6 +34,14 @@
   font-family: Raleway-Bold;
   src: url("fonts/Raleway/Raleway-bold.ttf"); }
 
+@font-face {
+  font-family: Raleway-Light;
+  src: url("fonts/Raleway/Raleway-Light.ttf"); }
+
+@font-face {
+  font-family: Raleway-ExtraLight;
+  src: url("fonts/Raleway/Raleway-ExtraLight.ttf"); }
+
 #intro-wrapper {
   position: absolute;
   overflow: hidden;
@@ -329,7 +337,7 @@
   100% {
     color: black; } }
 
-h1 {
+#context h1 {
   margin-left: 100px;
   margin-top: 100px;
   margin-right: 100px;
@@ -340,6 +348,32 @@ h1 {
   letter-spacing: 0.05em;
   -webkit-filter: blur(0.3px);
   filter: blur(0.3px); }
+
+#context h2 {
+  font-family: Raleway-Regular;
+  text-align: center;
+  color: #585757;
+  font-size: 26px;
+  letter-spacing: 0.05em;
+  -webkit-filter: blur(0.3px);
+  filter: blur(0.3px); }
+
+.streepje {
+  position: relative;
+  height: 1px;
+  background-color: #2cdf11;
+  width: 1050px;
+  margin-top: 120px; }
+
+.heading {
+  margin-top: 3px;
+  position: absolute;
+  width: 400px;
+  height: 40px;
+  background-color: white;
+  left: 50%;
+  margin-left: -200px;
+  top: -20px; }
 
 * {
   margin: 0px auto; }

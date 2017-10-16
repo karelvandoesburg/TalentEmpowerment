@@ -1,18 +1,18 @@
 #test {
     width:700px;
-    height:450px;
+    height:1900px;
+    max-height: 450px;
     background-color:red;
     position: relative;
-    overflow:visible;
+    overflow: auto;
     margin-left: 200px;
     margin-top:200px
 }
 
 #test2 {
-    width:300px;
-    height:200px;
+    width:700px;
+    height:800px;
     background-color:blue;
     margin: 0 auto;
+    overflow:visible;
 }
-
-/* de foto's moeten dus met javascript gemaakt worden, maar dit werkt wel! */

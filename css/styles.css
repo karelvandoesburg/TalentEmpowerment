@@ -373,13 +373,19 @@
   top: -20px; }
 
 #voor-topsporters {
-  width: 1050px;
+  width: 1080px;
   margin-top: 100px;
   margin-left: 100px;
   height: 800px;
   overflow: hidden;
   position: relative;
   max-height: 800px; }
+
+#container {
+  position: relative;
+  width: 1050px;
+  height: auto;
+  float: left; }
 
 * {
   margin: 0px auto; }

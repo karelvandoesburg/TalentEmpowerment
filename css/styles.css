@@ -388,18 +388,25 @@
     position: relative; }
     #voor-topsporters ul span {
       margin-top: 0px; }
+    #voor-topsporters ul h1 {
+      margin-top: 0px;
+      font-size: 24px; }
   #voor-topsporters li {
     vertical-align: top;
     width: 230px;
     height: 400px;
-    background-color: red;
     display: inline-block;
     margin-right: 41px; }
   #voor-topsporters li:first-child {
-    margin-left: -50px; }
+    width: 220px;
+    margin-left: -50px;
+    padding-left: 10px; }
   #voor-topsporters li:last-child {
-    background-color: blue;
     margin-right: 0px; }
+
+.titel {
+  width: 230px;
+  height: 80px; }
 
 .container {
   position: relative;
@@ -409,6 +416,35 @@
   text-align: center;
   font-family: Raleway-Regular;
   letter-spacing: 0.05em; }
+
+#streepje2 {
+  margin-top: 440px; }
+
+.quote-teken {
+  position: absolute;
+  width: 25px;
+  color: #2cdf11;
+  font-size: 70px;
+  font-family: arial; }
+
+#quote-teken-1 {
+  margin-top: 50px; }
+
+#quote-teken-2 {
+  top: 1130px;
+  left: 1030px; }
+
+#quote {
+  display: inline-block;
+  width: 1000px;
+  margin-bottom: 150px;
+  float: right; }
+  #quote h1 {
+    text-align: left; }
+  #quote span {
+    color: #2cdf11;
+    font-family: Times-new-Roman;
+    font-family: cursive; }
 
 * {
   margin: 0px auto; }

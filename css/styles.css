@@ -412,6 +412,8 @@
 .titel {
   width: 230px;
   height: 80px; }
+  .titel h1 {
+    text-align: left !important; }
 
 .container {
   position: relative;

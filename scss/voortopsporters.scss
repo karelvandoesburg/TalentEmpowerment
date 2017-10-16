@@ -119,11 +119,22 @@
     h1 {
         text-align: left;
     }
-    margin-bottom:150px;
+    margin-bottom:0px;
     span {
         color:$green;
         font-family:Times-new-Roman;
         font-family: cursive;
     }
     float:right;
+}
+
+#naam {
+    float:left;
+    font-family:Raleway-LightItalic;
+    font-size:30px;
+    text-align: right;
+    width:1050px;
+    height:50px;
+    font-size:30px;
+    margin-top:10px;
 }

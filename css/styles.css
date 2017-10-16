@@ -42,6 +42,10 @@
   font-family: Raleway-ExtraLight;
   src: url("fonts/Raleway/Raleway-ExtraLight.ttf"); }
 
+@font-face {
+  font-family: Raleway-LightItalic;
+  src: url("fonts/Raleway/Raleway-LightItalic.ttf"); }
+
 #intro-wrapper {
   position: absolute;
   overflow: hidden;
@@ -437,7 +441,7 @@
 #quote {
   display: inline-block;
   width: 1000px;
-  margin-bottom: 150px;
+  margin-bottom: 0px;
   float: right; }
   #quote h1 {
     text-align: left; }
@@ -445,6 +449,16 @@
     color: #2cdf11;
     font-family: Times-new-Roman;
     font-family: cursive; }
+
+#naam {
+  float: left;
+  font-family: Raleway-LightItalic;
+  font-size: 30px;
+  text-align: right;
+  width: 1050px;
+  height: 50px;
+  font-size: 30px;
+  margin-top: 10px; }
 
 * {
   margin: 0px auto; }

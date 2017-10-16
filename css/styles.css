@@ -384,28 +384,29 @@
   overflow: hidden;
   position: relative;
   max-height: 800px; }
-  #voor-topsporters ul {
-    margin-top: 50px;
-    list-style-type: none;
-    text-align: left;
-    float: left;
-    position: relative; }
-    #voor-topsporters ul span {
-      margin-top: 0px; }
-    #voor-topsporters ul h1 {
-      margin-top: 0px;
-      font-size: 24px; }
-  #voor-topsporters li {
+
+.ul1 {
+  margin-top: 20px;
+  list-style-type: none;
+  text-align: left;
+  float: left;
+  position: relative; }
+  .ul1 span {
+    margin-top: 0px; }
+  .ul1 h1 {
+    margin-top: 0px;
+    font-size: 24px; }
+  .ul1 li {
     vertical-align: top;
     width: 230px;
     height: 400px;
     display: inline-block;
     margin-right: 41px; }
-  #voor-topsporters li:first-child {
+  .ul1 li:first-child {
     width: 220px;
     margin-left: -50px;
     padding-left: 10px; }
-  #voor-topsporters li:last-child {
+  .ul1 li:last-child {
     margin-right: 0px; }
 
 .titel {
@@ -422,7 +423,7 @@
   letter-spacing: 0.05em; }
 
 #streepje2 {
-  margin-top: 440px; }
+  margin-top: 500px; }
 
 .quote-teken {
   position: absolute;
@@ -432,10 +433,10 @@
   font-family: arial; }
 
 #quote-teken-1 {
-  margin-top: 50px; }
+  margin-top: 40px; }
 
 #quote-teken-2 {
-  top: 1130px;
+  top: 1190px;
   left: 1030px; }
 
 #quote {
@@ -466,6 +467,30 @@
 #heading2 {
   width: 350px;
   margin-left: -175px; }
+
+#hockeybazen {
+  margin-top: 50px;
+  margin-left: -40px;
+  list-style-type: none; }
+  #hockeybazen .hockeybaas {
+    width: 1050px;
+    height: 200px;
+    margin-top: 60px; }
+  #hockeybazen img {
+    float: left;
+    height: 200px; }
+
+.profiel {
+  position: relative;
+  margin-left: 200px; }
+  .profiel .gegeven {
+    margin-top: 2px;
+    text-align: left;
+    list-style-type: none;
+    height: 25px;
+    width: 800px; }
+  .profiel .gegeven:first-child {
+    font-family: Raleway-Bold; }
 
 * {
   margin: 0px auto; }

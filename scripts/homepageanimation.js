@@ -59,6 +59,7 @@ $homepicture1.on('click', function() {
 })
 
 function showContext(picture) {
+    setInformationHeight($voortopsporters);
     $context.css({'zIndex' : '5',})
     $shield.css({'zIndex' : '4'})
     $context.velocity({

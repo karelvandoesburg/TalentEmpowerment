@@ -7,10 +7,15 @@ function changeSize() {
     changeAllImages();
     setStartButtonMargin();
     setContextHeight();
+    setInformationHeight($voortopsporters);
 }
 
 function setContextHeight() {
     $context.height($(window).height()-60);
+}
+
+function setInformationHeight(information) {
+    information.height($(window).height()-200);
 }
 
 function setMarginTop() {

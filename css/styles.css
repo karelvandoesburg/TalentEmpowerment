@@ -380,12 +380,35 @@
   overflow: hidden;
   position: relative;
   max-height: 800px; }
+  #voor-topsporters ul {
+    margin-top: 50px;
+    list-style-type: none;
+    text-align: left;
+    float: left;
+    position: relative; }
+    #voor-topsporters ul span {
+      margin-top: 0px; }
+  #voor-topsporters li {
+    vertical-align: top;
+    width: 230px;
+    height: 400px;
+    background-color: red;
+    display: inline-block;
+    margin-right: 41px; }
+  #voor-topsporters li:first-child {
+    margin-left: -50px; }
+  #voor-topsporters li:last-child {
+    background-color: blue;
+    margin-right: 0px; }
 
-#container {
+.container {
   position: relative;
   width: 1050px;
   height: auto;
-  float: left; }
+  float: left;
+  text-align: center;
+  font-family: Raleway-Regular;
+  letter-spacing: 0.05em; }
 
 * {
   margin: 0px auto; }

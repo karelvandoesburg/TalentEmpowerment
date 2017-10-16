@@ -45,11 +45,43 @@
     overflow: hidden;
     position: relative;
     max-height:800px;
+    ul {
+        span{
+            margin-top:0px;
+        }
+        margin-top:50px;
+        list-style-type: none;
+        text-align: left;
+        float:left;
+        position: relative;
+    }
+    li{
+        vertical-align: top;
+        width:230px;
+        height:400px;
+        background-color:red;
+        display: inline-block;
+        margin-right:41px;
+    }
+    li:first-child {
+        margin-left:-50px;
+    }
+    li:last-child {
+        background-color:blue;
+        margin-right:0px;
+    }
 }
 
-#container {
+//.programma {
+//    
+//}
+
+.container {
     position: relative;
     width:1050px;
     height:auto;
     float:left;
+    text-align: center;
+    font-family: Raleway-Regular;
+    letter-spacing: 0.05em; 
 }

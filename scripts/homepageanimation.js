@@ -64,7 +64,7 @@ function showContext(picture) {
     $shield.css({'zIndex' : '4'})
     $context.velocity({
         'opacity' : '1'
-    }, {duration: 70, easing: 'easeInSine'})
+    }, {duration: 300, easing: 'easeInQuad', delay:50})
     $homegrid.addClass('blur');
     $bar.addClass('blur');
 }

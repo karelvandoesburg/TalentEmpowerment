@@ -338,9 +338,6 @@
     color: black; } }
 
 #context h1 {
-  margin-left: 100px;
-  margin-top: 100px;
-  margin-right: 100px;
   text-align: center;
   font-family: Raleway-Medium;
   color: #585757;
@@ -376,8 +373,13 @@
   top: -20px; }
 
 #voor-topsporters {
-  height: 2000px;
-  max-height: 1000px; }
+  width: 1050px;
+  margin-top: 100px;
+  margin-left: 100px;
+  height: 800px;
+  overflow: hidden;
+  position: relative;
+  max-height: 800px; }
 
 * {
   margin: 0px auto; }

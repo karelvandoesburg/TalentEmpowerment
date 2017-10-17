@@ -32,3 +32,4 @@ var $shield = $('#shield');
 var $close = $('.close');
 var $bar = $('#bar');
 var $voortopsporters = $('#voor-topsporters');
+var $bartext = $('#bartext');

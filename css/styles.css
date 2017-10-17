@@ -192,6 +192,7 @@
   text-align: right; }
 
 #bartext {
+  opacity: 0;
   position: absolute;
   text-align: right;
   color: #f8f9fb;

@@ -188,7 +188,20 @@
   width: 100%;
   height: 45px;
   background: #252527;
-  Z-index: 4; }
+  Z-index: 4;
+  text-align: right; }
+
+#bartext {
+  position: absolute;
+  text-align: right;
+  color: #f8f9fb;
+  right: 0.5%;
+  margin-top: 8px;
+  font-size: 17px;
+  letter-spacing: 0.05em;
+  font-family: Oswald-ExtraLight; }
+  #bartext span {
+    color: #2cdf11; }
 
 #grid-1 {
   position: relative;

@@ -64,6 +64,21 @@
     height:45px;
     background: $darkgrey;
     Z-index:4;
+    text-align: right;
+}
+
+#bartext {
+    position: absolute;
+    text-align:right;
+    color:$offwhite;
+    right:0.5%;
+    margin-top:8px;
+    font-size:17px;
+    letter-spacing: 0.05em;
+    font-family: Oswald-ExtraLight;
+    span {
+        color:$green;
+    }
 }
 
 #grid-1 {

@@ -33,3 +33,5 @@ var $close = $('.close');
 var $bar = $('#bar');
 var $voortopsporters = $('#voor-topsporters');
 var $bartext = $('#bartext');
+var $doortopstudenten = $('#door-topstudenten');
+var $joinourteam = $('#partners');

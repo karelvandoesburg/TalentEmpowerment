@@ -56,11 +56,16 @@ $close.on('click', function() {
 })
 
 $homepicture1.on('click', function() {
-    showContext($homepicture1);
+    showContext($voortopsporters);
+})
+
+$homepicture3.on('click', function() {
+    showContext($doortopstudenten);
 })
 
 function showContext(picture) {
-    setInformationHeight($voortopsporters);
+    setInformationHeight(picture);
+    picture.css({'opacity' : '1'});
     $context.css({'zIndex' : '5',})
     $shield.css({'zIndex' : '4'})
     $context.velocity({
@@ -70,7 +75,7 @@ function showContext(picture) {
     $bar.addClass('blur');
 }
 
-function hideContext(picture) {
+function hideContext() {
     $shield.css({'zIndex' : '-1'})
     $homegrid.removeClass('blur');
     $bar.removeClass('blur');
@@ -79,5 +84,12 @@ function hideContext(picture) {
     }, {duration: 200, easing: 'swing'})
     setTimeout(function() {
         $context.css({'zIndex' : '-1'})},200);
-    
+    setTimeout(function() {
+        $voortopsporters.css({'opacity' : '0'})},200);
+    setTimeout(function() {
+        $doortopstudenten.css({'opacity' : '0'})},200);
+    setTimeout(function() {
+        $joinourteam.css({'opacity' : '0'})},200);
+    setTimeout(function() {
+        $partners.css({'opacity' : '0'})},200);  
 }

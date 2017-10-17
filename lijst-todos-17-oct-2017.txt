@@ -1,2 +1,6 @@
 -text homepage aanpassen dat hij in verhouding meebeweegd
 -als de website te klein wordt, dat alles onder elkaar gaat staan
+
+
+vragen: 
+- als je een 1600x900 scherm hebt, is de info dan te klein/moet je teveel scrollen?

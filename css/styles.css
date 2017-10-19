@@ -231,29 +231,25 @@
   position: absolute;
   top: 14%;
   left: 8%;
-  width: 21vw;
-  background-color: red; }
+  width: 21vw; }
 
 #text-container-2 {
   position: absolute;
   top: 14%;
   right: 8%;
-  width: 23vw;
-  background-color: red; }
+  width: 22.5vw; }
 
 #text-container-3 {
   position: absolute;
-  top: 14%;
-  right: 8%;
-  width: 23vw;
-  background-color: red; }
+  left: 8%;
+  top: 50%;
+  width: 23vw; }
 
 #text-container-4 {
   position: absolute;
-  top: 14%;
   right: 8%;
-  width: 23vw;
-  background-color: red; }
+  top: 50%;
+  width: 15.5vw; }
 
 #home-picture-3 {
   width: 50%;
@@ -273,9 +269,6 @@
 #home-picture-5 {
   width: 50%;
   height: 100%; }
-  #home-picture-5 h2 {
-    margin-top: 160px;
-    text-align: left; }
   #home-picture-5 span {
     color: #2cdf11; }
 
@@ -287,10 +280,8 @@
 
 #home-picture-6 {
   width: 50%;
-  height: 100%; }
-  #home-picture-6 h2 {
-    margin-top: 160px;
-    text-align: right; }
+  height: 100%;
+  text-align: right; }
 
 #Road2Tokyo {
   opacity: 0;

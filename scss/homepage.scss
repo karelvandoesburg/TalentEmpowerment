@@ -114,31 +114,27 @@
     top:14%;
     left: 8%;
     width: 21vw;
-    background-color: red;
 }
 
 #text-container-2 {
     position: absolute;
     top:14%;
     right: 8%;
-    width: 23vw;
-    background-color: red;
+    width: 22.5vw;
 }
 
 #text-container-3 {
     position: absolute;
-    top:14%;
-    right: 8%;
+    left:8%;
+    top:50%;
     width: 23vw;
-    background-color: red;
 }
 
 #text-container-4 {
     position: absolute;
-    top:14%;
-    right: 8%;
-    width: 23vw;
-    background-color: red;
+    right:8%;
+    top:50%;
+    width: 15.5vw;
 }
 
 #home-picture-3 {
@@ -162,10 +158,6 @@
 #home-picture-5 {
     width: 50%;
     height: 100%;
-    h2 {
-        margin-top:160px;
-        text-align: left;
-    }
     span {
         color:$green;
     }
@@ -181,10 +173,7 @@
 #home-picture-6 {
     width: 50%;
     height: 100%;
-    h2 {
-        margin-top:160px;
-        text-align:right;
-    }
+    text-align: right;
 }
 
 #Road2Tokyo {

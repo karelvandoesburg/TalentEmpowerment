@@ -76,7 +76,7 @@ function showContext(picture) {
 }
 
 function hideContext() {
-    $shield.css({'zIndex' : '-1'})
+    $shield.css({'zIndex' : '-1'});
     $homegrid.removeClass('blur');
     $bar.removeClass('blur');
     $context.velocity({

@@ -1,0 +1,25 @@
+#join-our-team {
+    position: absolute;
+    float:left;
+    top:0px;
+    left:0px;
+    
+    h1 {
+        text-align: center;
+        font-family: Raleway-Medium;
+        color: $textgrey;
+        font-size:150px!important;
+        letter-spacing:0.05em;
+        filter:blur(0.3px);
+        margin-top: 0px;
+    }
+
+    h2 {
+        font-family: Raleway-Regular;
+        text-align: center;
+        color: $textgrey;
+        font-size:26px;
+        letter-spacing:0.05em;
+        filter:blur(0.3px);
+    }
+}

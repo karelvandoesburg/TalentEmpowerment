@@ -146,22 +146,22 @@
     transition: 0.4s;
     text-align: center; }
   .home-grid h1 {
-    font-size: 75px;
+    font-size: 4vw;
     font-family: Oswald-ExtraLight;
     position: absolute;
     color: #f8f9fb;
     text-transform: uppercase;
     font-weight: lighter;
-    margin-top: 110px;
+    margin-top: 12%;
     margin-left: 50px; }
   .home-grid h2 {
-    font-size: 75px;
+    font-size: 4vw;
     font-family: Oswald-Regular;
     position: absolute;
     color: #f8f9fb;
     text-transform: uppercase;
     margin-left: 50px;
-    margin-top: 210px;
+    margin-top: 23%;
     font-weight: bold; }
 
 .blur {
@@ -397,7 +397,7 @@
   margin-top: 70px;
   margin-left: 100px;
   overflow: hidden;
-  position: relative;
+  position: absolute;
   max-height: 800px;
   opacity: 0; }
 
@@ -509,6 +509,10 @@
     width: 800px; }
   .profiel .gegeven:first-child {
     font-family: Raleway-Bold; }
+
+#door-topstudenten {
+  position: absolute;
+  opacity: 0; }
 
 * {
   margin: 0px auto; }

@@ -22,21 +22,15 @@
     h1 {
         font-size:4vw;
         font-family: Oswald-ExtraLight;
-        position: absolute;
         color: $offwhite;
         text-transform: uppercase;
         font-weight: lighter;
-        margin-top:12%;
-        margin-left:50px;
     }
     h2 {
         font-size:4vw;
         font-family: Oswald-Regular;
-        position: absolute;
         color: $offwhite;
         text-transform: uppercase;
-        margin-left:50px;
-        margin-top:23%;
         font-weight: bold;
     }
 }
@@ -115,21 +109,43 @@
     height:100%;
 }
 
-.text-container {
+#text-container-1 {
     position: absolute;
-    right:110px;
-    width: 420px;
-    h1, h2 {
-        width: inherit;
-        height: auto;
-    }
+    top:14%;
+    left: 8%;
+    width: 21vw;
+    background-color: red;
+}
+
+#text-container-2 {
+    position: absolute;
+    top:14%;
+    right: 8%;
+    width: 23vw;
+    background-color: red;
+}
+
+#text-container-3 {
+    position: absolute;
+    top:14%;
+    right: 8%;
+    width: 23vw;
+    background-color: red;
+}
+
+#text-container-4 {
+    position: absolute;
+    top:14%;
+    right: 8%;
+    width: 23vw;
+    background-color: red;
 }
 
 #home-picture-3 {
     width: 50%;
     height: 100%;
     h1, h2 {
-        text-align:right;
+        text-align:right!important;
     }
     h2:after{
       content:"";

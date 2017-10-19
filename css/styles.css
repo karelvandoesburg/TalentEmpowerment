@@ -148,20 +148,14 @@
   .home-grid h1 {
     font-size: 4vw;
     font-family: Oswald-ExtraLight;
-    position: absolute;
     color: #f8f9fb;
     text-transform: uppercase;
-    font-weight: lighter;
-    margin-top: 12%;
-    margin-left: 50px; }
+    font-weight: lighter; }
   .home-grid h2 {
     font-size: 4vw;
     font-family: Oswald-Regular;
-    position: absolute;
     color: #f8f9fb;
     text-transform: uppercase;
-    margin-left: 50px;
-    margin-top: 23%;
     font-weight: bold; }
 
 .blur {
@@ -233,19 +227,39 @@
   width: 100%;
   height: 100%; }
 
-.text-container {
+#text-container-1 {
   position: absolute;
-  right: 110px;
-  width: 420px; }
-  .text-container h1, .text-container h2 {
-    width: inherit;
-    height: auto; }
+  top: 14%;
+  left: 8%;
+  width: 21vw;
+  background-color: red; }
+
+#text-container-2 {
+  position: absolute;
+  top: 14%;
+  right: 8%;
+  width: 23vw;
+  background-color: red; }
+
+#text-container-3 {
+  position: absolute;
+  top: 14%;
+  right: 8%;
+  width: 23vw;
+  background-color: red; }
+
+#text-container-4 {
+  position: absolute;
+  top: 14%;
+  right: 8%;
+  width: 23vw;
+  background-color: red; }
 
 #home-picture-3 {
   width: 50%;
   height: 100%; }
   #home-picture-3 h1, #home-picture-3 h2 {
-    text-align: right; }
+    text-align: right !important; }
   #home-picture-3 h2:after {
     content: "";
     position: absolute;

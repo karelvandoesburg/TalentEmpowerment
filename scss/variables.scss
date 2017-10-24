@@ -3,3 +3,9 @@ $green: rgba(44, 223, 17, 1);
 $offwhite: #f8f9fb;
 $darkgrey: #252527;
 $textgrey: #585757;
+
+$contextwidth: 1000px;
+$margincontext: 70px;
+$containerwidth: ($contextwidth+(-($margincontext*2)));
+$quartermarginwidth: 20px;
+$quarterwidth: (($containerwidth/4)+(-$quartermarginwidth));

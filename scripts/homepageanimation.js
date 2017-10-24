@@ -63,6 +63,14 @@ $homepicture3.on('click', function() {
     showContext($doortopstudenten);
 })
 
+$homepicture5.on('click', function() {
+    showContext($joinourteam);
+})
+
+$homepicture6.on('click', function() {
+    showContext($partners);
+})
+
 function showContext(picture) {
     setInformationHeight(picture);
     picture.css({'opacity' : '1'});

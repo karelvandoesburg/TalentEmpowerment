@@ -34,4 +34,5 @@ var $bar = $('#bar');
 var $voortopsporters = $('#voor-topsporters');
 var $bartext = $('#bartext');
 var $doortopstudenten = $('#door-topstudenten');
-var $joinourteam = $('#partners');
+var $joinourteam = $('#join-our-team');
+var $partners = $('#partners');

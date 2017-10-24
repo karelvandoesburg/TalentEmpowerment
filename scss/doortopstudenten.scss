@@ -1,4 +1,15 @@
-#door-topstudenten {
+#dt-onderdelen {
+    list-style-type: none;
+}
+
+#dt-header {
+    width:$containerwidth;
+    height:100px;
+    background-color:red;
+    float:left;
+}
+
+#testjeweet {
+    background-color:blue;
     position: absolute;
-    opacity : 0;
 }

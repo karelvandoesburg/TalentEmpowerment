@@ -380,7 +380,7 @@
   -webkit-filter: blur(0.3px);
   filter: blur(0.3px); }
 
-#voor-topsporters {
+.chapter {
   width: 880px;
   margin-top: 70px;
   margin-left: 70px;
@@ -496,9 +496,18 @@
   .profiel .gegeven:first-child {
     font-family: Raleway-Bold; }
 
-#door-topstudenten {
-  position: absolute;
-  opacity: 0; }
+#dt-onderdelen {
+  list-style-type: none; }
+
+#dt-header {
+  width: 860px;
+  height: 100px;
+  background-color: red;
+  float: left; }
+
+#testjeweet {
+  background-color: blue;
+  position: absolute; }
 
 * {
   margin: 0px auto; }

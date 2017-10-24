@@ -4,16 +4,70 @@
 
 #dt-onderdelen {
     list-style-type: none;
+    padding:0;
 }
 
 #dt-header {
     width:$containerwidth;
-    height:100px;
+    height:70px;
+    margin-bottom:30px;
+    float:left;
+    font-size:35px;
+}
+
+.dt-onderdeel {
+    height:$studentheight;
+    width:$containerwidth;
     background-color:red;
+    margin-bottom:20px;
     float:left;
 }
 
-#testjeweet {
+.dt-picture {
+    height:$studentheight;
+    width:300px;
+    float:left;
     background-color:blue;
-    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dt-pictureleft {
+    float:left;
+}
+
+.dt-pictureright {
+    float: right;
+}
+
+.dt-textleft{
+    float:left;
+}
+
+.dt-textright{
+    float:right;
+}
+
+.dt-text-container{
+    width:500px;
+    height:$studentheight;
+    background-color:blue;
+    float:right;
+}
+
+#dt-picture1 {
+    background-image: url(/images/dt-persoonlijkecoach.jpg);
+}
+
+#dt-picture2 {
+    background-image: url(/images/dt-sportsmeetsbusiness.jpg);
+}
+
+#dt-picture3 {
+    background-image: url(/images/dt-trainingsprogramma.jpg);
+}
+
+#dt-picture4 {
+    background-image: url(/images/dt-verantwoordelijkheid.jpg);
 }

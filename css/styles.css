@@ -381,7 +381,7 @@
   filter: blur(0.3px); }
 
 #voor-topsporters {
-  width: 860px;
+  width: 880px;
   margin-top: 70px;
   margin-left: 70px;
   overflow: hidden;
@@ -447,7 +447,8 @@
   float: left;
   text-align: center;
   font-family: Raleway-Regular;
-  letter-spacing: 0.05em; }
+  letter-spacing: 0.05em;
+  overflow: hidden; }
 
 #quote {
   width: 860px;
@@ -491,7 +492,7 @@
     text-align: left;
     list-style-type: none;
     height: 25px;
-    width: 800px; }
+    width: 590px; }
   .profiel .gegeven:first-child {
     font-family: Raleway-Bold; }
 

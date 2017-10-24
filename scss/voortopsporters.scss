@@ -20,7 +20,7 @@
 }
 
 #voor-topsporters {
-    width:860px;
+    width:($containerwidth+20px);
     margin-top:70px;
     margin-left:70px;
     overflow: hidden;
@@ -103,6 +103,7 @@
     text-align: center;
     font-family: Raleway-Regular;
     letter-spacing: 0.05em; 
+    overflow:hidden;
 }
 
 #quote {
@@ -153,7 +154,7 @@
         text-align: left;
         list-style-type:none;
         height:25px;
-        width:800px;
+        width:($containerwidth+(-270px));
     }
     .gegeven:first-child {
         font-family:Raleway-Bold;

@@ -19,23 +19,6 @@
     }
 }
 
-.streepje {
-    height:1px;
-    background-color: $green;
-    width: $containerwidth;
-    margin-top:80px;
-}
-
-.heading {
-    position: absolute;
-    margin-top:-20px;
-    width:400px;
-    height:40px;
-    background-color: white;
-    left:50%;
-    margin-left:-(200px);
-}
-
 #voor-topsporters {
     width:860px;
     margin-top:70px;
@@ -50,6 +33,32 @@
     position:absolute;
 }
 
+#voor-topsporters-text {
+    float:left;
+}
+
+.streepje {
+    height:1px;
+    background-color: $green;
+    width: $containerwidth;
+    margin-top:80px;
+    float:left;
+}
+
+#streepje1 {
+    margin-bottom: 80px;
+}
+
+.heading {
+    position: absolute;
+    margin-top:-20px;
+    width:400px;
+    height:40px;
+    background-color: white;
+    left:50%;
+    margin-left:-(200px);
+}
+
 .ul1 {
     span{
             margin-top:0px;
@@ -62,7 +71,6 @@
     list-style-type: none;
     text-align: left;
     float:left;
-    position: relative;
     li{
         vertical-align: top;
         width:$quarterwidth;
@@ -97,37 +105,13 @@
     letter-spacing: 0.05em; 
 }
 
-.quote-teken {
-    position: absolute;
-    width:25px;
-    color:$green;
-    font-size:70px;
-    font-family: arial;
-}
-
-#quote-teken-1 {
-    margin-top:40px;
-}
-
-#quote-teken-2 {
-    top:1190px;
-    left:1030px;
-    
-}
-
 #quote {
-    display: inline-block;
     width:$containerwidth;
     h1 {
         text-align: left;
     }
     margin-bottom:0px;
-    span {
-        color:$green;
-        font-family:Times-new-Roman;
-        font-family: cursive;
-    }
-    float:right;
+    float:left;
 }
 
 #naam {
@@ -140,10 +124,6 @@
     margin-top:20px;
 }
 
-#streepje3 {
-    margin-top:350px;
-}
-
 #heading2 {
     width:350px;
     margin-left:-175px;
@@ -153,9 +133,10 @@
     margin-top:50px;
     margin-left:-40px;
     .hockeybaas {
-        width:1050px;
+        width:$containerwidth;
         height:200px;
         margin-top:60px;
+        float:left;
     }
     list-style-type: none;
     img {

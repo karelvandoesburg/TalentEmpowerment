@@ -380,21 +380,6 @@
   -webkit-filter: blur(0.3px);
   filter: blur(0.3px); }
 
-.streepje {
-  height: 1px;
-  background-color: #2cdf11;
-  width: 860px;
-  margin-top: 80px; }
-
-.heading {
-  position: absolute;
-  margin-top: -20px;
-  width: 400px;
-  height: 40px;
-  background-color: white;
-  left: 50%;
-  margin-left: -200px; }
-
 #voor-topsporters {
   width: 860px;
   margin-top: 70px;
@@ -405,12 +390,33 @@
   opacity: 0;
   position: absolute; }
 
+#voor-topsporters-text {
+  float: left; }
+
+.streepje {
+  height: 1px;
+  background-color: #2cdf11;
+  width: 860px;
+  margin-top: 80px;
+  float: left; }
+
+#streepje1 {
+  margin-bottom: 80px; }
+
+.heading {
+  position: absolute;
+  margin-top: -20px;
+  width: 400px;
+  height: 40px;
+  background-color: white;
+  left: 50%;
+  margin-left: -200px; }
+
 .ul1 {
   margin-top: 20px;
   list-style-type: none;
   text-align: left;
-  float: left;
-  position: relative; }
+  float: left; }
   .ul1 span {
     margin-top: 0px; }
   .ul1 h1 {
@@ -443,31 +449,12 @@
   font-family: Raleway-Regular;
   letter-spacing: 0.05em; }
 
-.quote-teken {
-  position: absolute;
-  width: 25px;
-  color: #2cdf11;
-  font-size: 70px;
-  font-family: arial; }
-
-#quote-teken-1 {
-  margin-top: 40px; }
-
-#quote-teken-2 {
-  top: 1190px;
-  left: 1030px; }
-
 #quote {
-  display: inline-block;
   width: 860px;
   margin-bottom: 0px;
-  float: right; }
+  float: left; }
   #quote h1 {
     text-align: left; }
-  #quote span {
-    color: #2cdf11;
-    font-family: Times-new-Roman;
-    font-family: cursive; }
 
 #naam {
   float: left;
@@ -478,9 +465,6 @@
   font-size: 24px;
   margin-top: 20px; }
 
-#streepje3 {
-  margin-top: 350px; }
-
 #heading2 {
   width: 350px;
   margin-left: -175px; }
@@ -490,9 +474,10 @@
   margin-left: -40px;
   list-style-type: none; }
   #hockeybazen .hockeybaas {
-    width: 1050px;
+    width: 860px;
     height: 200px;
-    margin-top: 60px; }
+    margin-top: 60px;
+    float: left; }
   #hockeybazen img {
     float: left;
     height: 200px; }

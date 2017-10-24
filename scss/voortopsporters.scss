@@ -20,7 +20,6 @@
 }
 
 .streepje {
-    position:relative;
     height:1px;
     background-color: $green;
     width: $containerwidth;
@@ -28,14 +27,13 @@
 }
 
 .heading {
-    margin-top:3px;
     position: absolute;
+    margin-top:-20px;
     width:400px;
     height:40px;
     background-color: white;
     left:50%;
-    margin-left:-200px;
-    top:-20px;
+    margin-left:-(200px);
 }
 
 #voor-topsporters {
@@ -97,10 +95,6 @@
     text-align: center;
     font-family: Raleway-Regular;
     letter-spacing: 0.05em; 
-}
-
-#streepje2 {
-    margin-top: 500px;
 }
 
 .quote-teken {

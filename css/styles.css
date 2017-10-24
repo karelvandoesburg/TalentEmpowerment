@@ -381,21 +381,19 @@
   filter: blur(0.3px); }
 
 .streepje {
-  position: relative;
   height: 1px;
   background-color: #2cdf11;
   width: 860px;
   margin-top: 80px; }
 
 .heading {
-  margin-top: 3px;
   position: absolute;
+  margin-top: -20px;
   width: 400px;
   height: 40px;
   background-color: white;
   left: 50%;
-  margin-left: -200px;
-  top: -20px; }
+  margin-left: -200px; }
 
 #voor-topsporters {
   width: 860px;
@@ -444,9 +442,6 @@
   text-align: center;
   font-family: Raleway-Regular;
   letter-spacing: 0.05em; }
-
-#streepje2 {
-  margin-top: 500px; }
 
 .quote-teken {
   position: absolute;

@@ -525,7 +525,7 @@
   height: 220px;
   width: 300px;
   float: left;
-  background-color: blue;
+  background-color: green;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -549,16 +549,16 @@
   float: right; }
 
 #dt-picture1 {
-  background-image: url(/images/dt-persoonlijkecoach.jpg); }
+  background-image: url(cssimages/dt-persoonlijkecoach.jpg); }
 
 #dt-picture2 {
-  background-image: url(/images/dt-sportsmeetsbusiness.jpg); }
+  background-image: url(cssimages/dt-sportsmeetsbusiness.jpg); }
 
 #dt-picture3 {
-  background-image: url(/images/dt-trainingsprogramma.jpg); }
+  background-image: url(cssimages/dt-trainingsprogramma.jpg); }
 
 #dt-picture4 {
-  background-image: url(/images/dt-verantwoordelijkheid.jpg); }
+  background-image: url(cssimages/dt-verantwoordelijkheid.jpg); }
 
 * {
   margin: 0px auto; }

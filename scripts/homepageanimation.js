@@ -31,6 +31,7 @@ function showHomeGrid() {
     showHomePicture($homepicture5, del, dur);
     showHomePicture($homepicture6, del, dur);
     showHomePicture($bartext, del, dur);
+    showHomePicture($('#bar-logo'), del, dur);
 }
 
 function showFirstPicture(picture,del,dur) {

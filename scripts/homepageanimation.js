@@ -74,7 +74,8 @@ $homepicture6.on('click', function() {
 function showContext(picture) {
     setInformationHeight(picture);
     picture.css({'opacity' : '1'});
-    $context.css({'zIndex' : '5',})
+    $context.css({'zIndex' : '5',});
+    picture.css({'zIndex' : '5',});
     $shield.css({'zIndex' : '4'})
     $context.velocity({
         'opacity' : '1'
@@ -92,6 +93,7 @@ function hideContext() {
     }, {duration: 200, easing: 'swing'})
     setTimeout(function() {
         $context.css({'zIndex' : '-1'})},200);
+    setTimeout(hideAllChapters(), 200);
     setTimeout(function() {
         $voortopsporters.css({'opacity' : '0'})},200);
     setTimeout(function() {
@@ -100,4 +102,11 @@ function hideContext() {
         $joinourteam.css({'opacity' : '0'})},200);
     setTimeout(function() {
         $partners.css({'opacity' : '0'})},200);  
+}
+
+function hideAllChapters() {
+    $voortopsporters.css({'zIndex' : '-1',});
+    $doortopstudenten.css({'zIndex' : '-1',});
+    $joinourteam.css({'zIndex' : '-1',});
+    $partners.css({'zIndex' : '-1',});
 }

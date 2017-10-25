@@ -374,7 +374,7 @@
   font-family: Raleway-Regular;
   text-align: center;
   color: #585757;
-  font-size: 26px;
+  font-size: 32px;
   letter-spacing: 0.05em;
   -webkit-filter: blur(0.3px);
   filter: blur(0.3px); }
@@ -420,7 +420,7 @@
 
 .heading {
   position: absolute;
-  margin-top: -20px;
+  margin-top: -22px;
   width: 400px;
   height: 40px;
   background-color: white;
@@ -476,16 +476,16 @@
   width: 350px;
   margin-left: -175px; }
 
-#hockeybazen {
+.lijstpersonen {
   margin-top: 50px;
   margin-left: -40px;
   list-style-type: none; }
-  #hockeybazen .hockeybaas {
+  .lijstpersonen .hockeybaas {
     width: 860px;
     height: 200px;
     margin-top: 60px;
     float: left; }
-  #hockeybazen img {
+  .lijstpersonen img {
     float: left;
     height: 200px; }
 
@@ -503,13 +503,15 @@
 
 #door-topstudenten {
   position: absolute; }
-  #door-topstudenten .streepje {
-    margin-top: 40px;
-    margin-bottom: 70px; }
+
+#dt-streepje1 {
+  margin-bottom: 80px; }
 
 #dt-onderdelen {
   list-style-type: none;
   padding: 0; }
+  #dt-onderdelen li:last-child {
+    margin-bottom: 0px; }
 
 #dt-header {
   width: 860px;
@@ -519,13 +521,13 @@
   font-size: 35px; }
 
 .dt-onderdeel {
-  height: 300px;
+  height: 240px;
   width: 860px;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
   float: left; }
 
 .dt-picture {
-  height: 300px;
+  height: 240px;
   width: 400px;
   float: left;
   background-color: green;
@@ -548,9 +550,8 @@
   margin-right: 15px; }
 
 .dt-text-container {
-  margin-top: 20px;
   width: 370px;
-  height: 300px; }
+  height: 240px; }
 
 #dt-picture1 {
   background-image: url(cssimages/dt-persoonlijkecoach.jpg); }
@@ -565,8 +566,100 @@
   background-image: url(cssimages/dt-verantwoordelijkheid.jpg); }
 
 .dt-streepje {
-  margin-top: 40px;
-  margin-bottom: 40px; }
+  float: left; }
+
+#dt-streepje1 {
+  margin-top: 50px; }
+
+#dt-streepje2 {
+  margin-top: 60px;
+  margin-bottom: 30px; }
+  #dt-streepje2 .heading {
+    width: 600px;
+    margin-left: -300px; }
+
+#dt-heading2 {
+  width: 500px;
+  margin-left: -250px; }
+
+#join-our-team {
+  position: absolute; }
+  #join-our-team .heading {
+    width: 350px;
+    margin-left: -175px; }
+  #join-our-team h3 {
+    color: #585757; }
+
+#jot-streepje1 {
+  margin-top: 50px;
+  margin-bottom: 70px; }
+  #jot-streepje1 .heading {
+    width: 450px;
+    margin-left: -225px;
+    margin-top: -30px; }
+    #jot-streepje1 .heading h2 {
+      font-size: 50px; }
+
+#jot-lijst {
+  list-style-type: none;
+  padding: 0; }
+  #jot-lijst h1 {
+    font-size: 20px; }
+
+.jot-item {
+  width: 400px;
+  height: 180px;
+  margin-top: 50px;
+  text-align: center; }
+  .jot-item h1 {
+    margin-bottom: 20px; }
+
+.jot-itemleft {
+  float: left; }
+
+.jot-itemright {
+  float: right; }
+
+.jot-titel {
+  float: left;
+  height: 30px;
+  width: 100%;
+  margin-bottom: 15px; }
+
+.jot-text {
+  float: left; }
+
+#jot-streepje2 {
+  margin-top: 0px;
+  margin-bottom: 50px; }
+
+#schrijfjein-text {
+  width: 860px;
+  height: 200px;
+  float: left; }
+
+#jot-contact-container {
+  width: 860px;
+  heigth: 300px;
+  float: left;
+  margin-top: -100px; }
+
+#jot-contact {
+  list-style-type: none;
+  padding: 0; }
+  #jot-contact li {
+    width: 300px;
+    float: left;
+    overflow: hidden;
+    height: 250px;
+    text-align: center;
+    margin-left: 87px; }
+    #jot-contact li img {
+      width: 200px; }
+  #jot-contact li:last-child {
+    float: right;
+    margin-right: 87px;
+    margin-left: 0px; }
 
 * {
   margin: 0px auto; }

@@ -1,25 +1,100 @@
 #join-our-team {
     position: absolute;
-    float:left;
-    top:0px;
-    left:0px;
-    
-    h1 {
-        text-align: center;
-        font-family: Raleway-Medium;
-        color: $textgrey;
-        font-size:150px!important;
-        letter-spacing:0.05em;
-        filter:blur(0.3px);
-        margin-top: 0px;
+    .heading {
+        width:350px;
+        margin-left:-175px;
     }
-
-    h2 {
-        font-family: Raleway-Regular;
-        text-align: center;
-        color: $textgrey;
-        font-size:26px;
-        letter-spacing:0.05em;
-        filter:blur(0.3px);
+    h3 {
+        color:$textgrey;
     }
 }
+
+#jot-streepje1 {
+    margin-top:50px;
+    margin-bottom:70px;
+    .heading{
+        h2{
+            font-size:50px;
+        }
+        width:450px;
+        margin-left:-225px;
+        margin-top:-30px;
+    }
+}
+
+#jot-lijst {
+    list-style-type: none;
+    padding: 0;
+    h1 {
+        font-size:20px;
+    }
+}
+
+.jot-item {
+    width: 400px;
+    height: 180px;
+    margin-top:50px;
+    text-align:center;
+    h1{
+        margin-bottom:20px;
+    }
+}
+
+.jot-itemleft {
+    float:left;
+}
+
+.jot-itemright {
+    float:right;
+}
+
+.jot-titel {
+    float: left;
+    height:30px;
+    width:100%;
+    margin-bottom:15px;
+}
+
+.jot-text {
+    float:left;
+}
+
+#jot-streepje2 {
+    margin-top:0px;
+    margin-bottom: 50px;
+}
+
+#schrijfjein-text {
+    width: $containerwidth;
+    height:200px;
+    float:left;
+}
+
+#jot-contact-container {
+    width:$containerwidth;
+    heigth:300px;
+    float:left;
+    margin-top:-100px;
+}
+
+#jot-contact {
+    list-style-type: none;
+    padding:0;
+    li{
+        width:300px;
+        float:left;
+        overflow:hidden;
+        height:250px;
+        text-align: center;
+        img{
+            width:200px;
+        }
+        margin-left:87px;
+    }
+    li:last-child {
+        float:right;
+        margin-right:87px;
+        margin-left:0px;
+    }
+}
+

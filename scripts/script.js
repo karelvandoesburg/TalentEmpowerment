@@ -9,6 +9,7 @@ function changeSize() {
     setContextHeight();
     setInformationHeight($voortopsporters);
     setChapterMaxHeight();
+    skipIntroductionPage();
 }
 
 function setContextHeight() {

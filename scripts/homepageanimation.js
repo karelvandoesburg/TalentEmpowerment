@@ -22,6 +22,25 @@ function goToContextPage() {
     setMarginTop = function(){};   
 }
 
+function skipIntroductionPage(){
+    console.log('hij wordt aangeroepen');
+    if($(window).width() < 1000) {
+        $sectionwrapper.show();
+        $logo.css({'top' : '-400px'});
+        $start.css({'top' : '-500px'});
+        $sectionwrapper.css({'top' : '0px'});
+        setMarginTop = function(){};
+        $homepicture1.css({"opacity" : "1"});
+        $homepicture3.css({"opacity" : "1"});
+        $homepicture5.css({"opacity" : "1"});
+        $homepicture6.css({"opacity" : "1"});
+        $bartext.css({"opacity" : "1"});
+        $barlogo.css({"opacity" : "1"});
+        changeAllImages();
+        setContextHeight();
+    }
+}
+
 function showHomeGrid() {
     var dur = 800;
     var del = 1600
@@ -78,7 +97,7 @@ function showContext(picture) {
     picture.css({'opacity' : '1'});
     $context.css({'zIndex' : '5',});
     picture.css({'zIndex' : '5',});
-    $shield.css({'zIndex' : '4'})
+    $shield.css({'zIndex' : '4'});
     $context.velocity({
         'opacity' : '1'
     }, {duration: 200, easing: 'swing', delay:30})
@@ -111,4 +130,13 @@ function hideAllChapters() {
     $doortopstudenten.css({'zIndex' : '-1',});
     $joinourteam.css({'zIndex' : '-1',});
     $partners.css({'zIndex' : '-1',});
+}
+
+function makeHomepageCSSReady() {
+    setChapterMaxHeight();
+    setInformationHeight(picture);
+    picture.css({'opacity' : '1'});
+    $context.css({'zIndex' : '5',});
+    picture.css({'zIndex' : '5',});
+    $shield.css({'zIndex' : '4'});
 }

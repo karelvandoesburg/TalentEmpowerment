@@ -31,6 +31,7 @@ var $context = $('#context');
 var $shield = $('#shield');
 var $close = $('.close');
 var $bar = $('#bar');
+var $barlogo = $('#bar-logo');
 var $voortopsporters = $('#voor-topsporters');
 var $bartext = $('#bartext');
 var $doortopstudenten = $('#door-topstudenten');

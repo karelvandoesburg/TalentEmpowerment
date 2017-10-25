@@ -2,6 +2,7 @@ $(window).ready(function() {
     setMarginTop();
     changeBackgroundSize();
     backgroundAnimation();
+    skipIntroductionPage();
 });
 
 function backgroundAnimation() {
@@ -35,4 +36,4 @@ function moveDownText() {
     $start.velocity({
         'top' : height + 'px'
     }, {duration: 1300, easing: 'easeInOutQuart', delay: 400})
-} 
+}

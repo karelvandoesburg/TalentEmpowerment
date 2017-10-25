@@ -2,3 +2,40 @@
     position: absolute;
 }
 
+.p-streepje {
+    margin-bottom:60px;
+    .heading {
+        width:300px;
+        margin-left:-150px;
+    }
+}
+
+#p-lijst {
+    list-style-type: none;
+    margin-top:20px;
+    padding:0;
+    h3{
+        margin-top:20px;
+        margin-bottom:10px;
+    }
+}
+
+.partner {
+    width:$containerwidth;
+    height:auto;
+    float:left;
+    margin-top:50px;
+}
+
+#kellerman-logo {
+    img {
+        width:400px;
+    }
+}
+
+#ormit-logo {
+    img {
+        width:250px;
+    }
+}
+

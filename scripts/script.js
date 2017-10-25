@@ -18,6 +18,7 @@ function setContextHeight() {
 function setChapterMaxHeight() {
     var maxheight = $(window).height()-200;
     $chapter.css({"maxHeight" : maxheight + 'px'});
+    $chapter.css({"height" : maxheight + 'px'});
 }
 
 function setInformationHeight(information) {

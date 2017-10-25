@@ -8,10 +8,16 @@ function changeSize() {
     setStartButtonMargin();
     setContextHeight();
     setInformationHeight($voortopsporters);
+    setChapterMaxHeight();
 }
 
 function setContextHeight() {
     $context.height($(window).height()-60);
+}
+
+function setChapterMaxHeight() {
+    var maxheight = $(window).height()-200;
+    $chapter.css({"maxHeight" : maxheight + 'px'});
 }
 
 function setInformationHeight(information) {

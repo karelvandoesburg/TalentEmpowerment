@@ -18,14 +18,13 @@
 .dt-onderdeel {
     height:$studentheight;
     width:$containerwidth;
-    background-color:red;
-    margin-bottom:20px;
+    margin-bottom:80px;
     float:left;
 }
 
 .dt-picture {
     height:$studentheight;
-    width:300px;
+    width:400px;
     float:left;
     background-color:green;
     background-position: center;
@@ -33,27 +32,28 @@
     background-size: cover;
 }
 
-.dt-pictureleft {
+.dt-left {
     float:left;
 }
 
-.dt-pictureright {
+.dt-right {
     float: right;
 }
 
 .dt-textleft{
     float:left;
+    margin-left:15px;
 }
 
 .dt-textright{
     float:right;
+    margin-right:15px;
 }
 
 .dt-text-container{
-    width:500px;
+    margin-top:20px;
+    width:370px;
     height:$studentheight;
-    background-color:blue;
-    float:right;
 }
 
 #dt-picture1 {
@@ -70,4 +70,9 @@
 
 #dt-picture4 {
     background-image: url(cssimages/dt-verantwoordelijkheid.jpg);
+}
+
+.dt-streepje {
+    margin-top: 40px;
+    margin-bottom: 40px;
 }

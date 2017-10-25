@@ -72,6 +72,7 @@ $homepicture6.on('click', function() {
 })
 
 function showContext(picture) {
+    setChapterMaxHeight();
     setInformationHeight(picture);
     picture.css({'opacity' : '1'});
     $context.css({'zIndex' : '5',});

@@ -36,3 +36,4 @@ var $bartext = $('#bartext');
 var $doortopstudenten = $('#door-topstudenten');
 var $joinourteam = $('#join-our-team');
 var $partners = $('#partners');
+var $chapter = $('.chapter');

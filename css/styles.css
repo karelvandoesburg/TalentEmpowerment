@@ -368,8 +368,7 @@
   font-size: 24px;
   letter-spacing: 0.05em;
   -webkit-filter: blur(0.3px);
-  filter: blur(0.3px);
-  margin-top: 50px; }
+  filter: blur(0.3px); }
 
 #context h2 {
   font-family: Raleway-Regular;
@@ -379,9 +378,6 @@
   letter-spacing: 0.05em;
   -webkit-filter: blur(0.3px);
   filter: blur(0.3px); }
-
-#voor-topsporters {
-  position: absolute; }
 
 .chapter {
   width: 880px;
@@ -393,6 +389,21 @@
   opacity: 0;
   position: absolute;
   top: 0px; }
+
+.container {
+  position: relative;
+  width: 860px;
+  height: auto;
+  float: left;
+  text-align: center;
+  font-family: Raleway-Regular;
+  letter-spacing: 0.05em;
+  overflow: hidden; }
+
+#voor-topsporters {
+  position: absolute; }
+  #voor-topsporters h1 {
+    margin-top: 50px; }
 
 #voor-topsporters-text {
   float: left; }
@@ -443,16 +454,6 @@
   height: 80px; }
   .titel h1 {
     text-align: left !important; }
-
-.container {
-  position: relative;
-  width: 860px;
-  height: auto;
-  float: left;
-  text-align: center;
-  font-family: Raleway-Regular;
-  letter-spacing: 0.05em;
-  overflow: hidden; }
 
 #quote {
   width: 860px;
@@ -515,38 +516,38 @@
   font-size: 35px; }
 
 .dt-onderdeel {
-  height: 220px;
+  height: 300px;
   width: 860px;
-  background-color: red;
-  margin-bottom: 20px;
+  margin-bottom: 80px;
   float: left; }
 
 .dt-picture {
-  height: 220px;
-  width: 300px;
+  height: 300px;
+  width: 400px;
   float: left;
   background-color: green;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
 
-.dt-pictureleft {
+.dt-left {
   float: left; }
 
-.dt-pictureright {
+.dt-right {
   float: right; }
 
 .dt-textleft {
-  float: left; }
+  float: left;
+  margin-left: 15px; }
 
 .dt-textright {
-  float: right; }
+  float: right;
+  margin-right: 15px; }
 
 .dt-text-container {
-  width: 500px;
-  height: 220px;
-  background-color: blue;
-  float: right; }
+  margin-top: 20px;
+  width: 370px;
+  height: 300px; }
 
 #dt-picture1 {
   background-image: url(cssimages/dt-persoonlijkecoach.jpg); }
@@ -559,6 +560,10 @@
 
 #dt-picture4 {
   background-image: url(cssimages/dt-verantwoordelijkheid.jpg); }
+
+.dt-streepje {
+  margin-top: 40px;
+  margin-bottom: 40px; }
 
 * {
   margin: 0px auto; }

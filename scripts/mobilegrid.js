@@ -28,6 +28,7 @@ function buildMobileGrid() {
         $homepicture6.css({"height" : smallheight + "px"});
         var sectionheight = 2*bigheight + 2*smallheight;
         $sectionwrapper.css({"height" : sectionheight+'px'});
+        hideContext();
     } 
 }
 

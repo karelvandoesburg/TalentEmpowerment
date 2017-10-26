@@ -57,19 +57,27 @@ $close.on('click', function() {
 })
 
 $homepicture1.on('click', function() {
-    showContext($voortopsporters);
+    if($(window).width() > 999) {
+        showContext($voortopsporters);
+    }
 })
 
 $homepicture3.on('click', function() {
-    showContext($doortopstudenten);
+    if($(window).width() > 999) {
+        showContext($doortopstudenten);
+    }
 })
 
 $homepicture5.on('click', function() {
-    showContext($joinourteam);
+    if($(window).width() > 999) {
+        showContext($joinourteam);
+    }
 })
 
 $homepicture6.on('click', function() {
-    showContext($partners);
+    if($(window).width() > 999) {
+        showContext($partners);
+    }
 })
 
 function showContext(picture) {

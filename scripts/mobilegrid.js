@@ -11,8 +11,9 @@ function skipIntroductionPage(){
         $homepicture6.css({"opacity" : "1"});
         $bartext.css({"opacity" : "1"});
         $barlogo.css({"opacity" : "1"});
-        changeAllImages();
         setContextHeight();
+        buildMobileGrid();
+        changeAllImages();
     }
 }
 

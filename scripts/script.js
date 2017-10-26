@@ -9,7 +9,6 @@ function changeSize() {
     setInformationHeight($voortopsporters);
     setChapterMaxHeight();
     skipIntroductionPage();
-    buildMobileGrid();
     getNormalContainer();
     changeAllImages();
 }

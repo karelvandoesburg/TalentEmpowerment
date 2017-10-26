@@ -4,7 +4,6 @@ $(window).resize(changeSize);
 function changeSize() {
     changeBackgroundSize();
     setMarginTop();
-    changeAllImages();
     setStartButtonMargin();
     setContextHeight();
     setInformationHeight($voortopsporters);
@@ -12,6 +11,7 @@ function changeSize() {
     skipIntroductionPage();
     buildMobileGrid();
     getNormalContainer();
+    changeAllImages();
 }
 
 function setContextHeight() {

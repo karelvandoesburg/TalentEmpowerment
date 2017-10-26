@@ -181,7 +181,7 @@
 #bar {
   position: absolute;
   width: 100%;
-  height: 6%;
+  height: 6vh;
   background: #252527;
   Z-index: 4;
   text-align: right; }
@@ -192,7 +192,7 @@
   text-align: right;
   color: #f8f9fb;
   right: 0.5%;
-  margin-top: 0.8%;
+  margin-top: 1.5vh;
   font-size: 1.8vh;
   letter-spacing: 0.05em;
   font-family: Oswald-ExtraLight; }
@@ -201,8 +201,8 @@
 
 #bar-logo {
   opacity: 0;
-  margin-top: 0.2%;
-  margin-left: 0.2%;
+  margin-top: 0.4vh;
+  margin-left: 0.4vh;
   height: 85%;
   float: left; }
 
@@ -700,6 +700,20 @@
 
 #ormit-logo img {
   width: 250px; }
+
+@media screen and (max-width: 1000px) {
+  #home-picture-1 {
+    width: 100%; }
+  #home-picture-3 {
+    width: 100%;
+    float: left; }
+  #home-picture-5 {
+    width: 100%; }
+  #home-picuture-6 {
+    width: 100%;
+    float: left; }
+  #section {
+    overflow: visible; } }
 
 * {
   margin: 0px auto; }

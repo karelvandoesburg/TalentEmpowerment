@@ -93,8 +93,9 @@
 
 #home-picture-1 {
     width: 50%;
-    height: 100%;
+    height: 66%;
     z-index: 1;
+    float:left;
     h2:after{
       content:"";
       position:absolute;
@@ -147,7 +148,8 @@
 
 #home-picture-3 {
     width: 50%;
-    height: 100%;
+    height: 66%;
+    float:right;
     h1, h2 {
         text-align:right!important;
     }
@@ -165,7 +167,8 @@
 
 #home-picture-5 {
     width: 50%;
-    height: 100%;
+    height: 34%;
+    float:left;
     span {
         color:$green;
     }
@@ -180,7 +183,8 @@
 
 #home-picture-6 {
     width: 50%;
-    height: 100%;
+    height: 34%;
+    float:right;
     text-align: right;
 }
 

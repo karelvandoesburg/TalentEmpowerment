@@ -235,6 +235,85 @@ h3 {
     margin-left:-250px;
 }
 
+#jot-streepje1 {
+    margin-bottom: 40px;
+}
+
+#jot-lijst {
+    list-style-type: none;
+    padding: 0;
+    h1 {
+        font-size:20px;
+    }
+}
+
+.jot-item {
+    width: 400px;
+    height: 180px;
+    margin-top:50px;
+    text-align:center;
+    h1{
+        margin-bottom:20px;
+    }
+}
+
+.jot-itemleft {
+    float:left;
+}
+
+.jot-itemright {
+    float:right;
+}
+
+.jot-titel {
+    float: left;
+    height:30px;
+    width:100%;
+    margin-bottom:15px;
+}
+
+.jot-text {
+    float:left;
+}
+
+#jot-contact-container {
+    width:100%;
+    heigth:300px;
+    float:left;
+    margin-top:10px;
+}
+
+#jot-contact {
+    list-style-type: none;
+    padding:0;
+    li{
+        width:300px;
+        float:left;
+        overflow:hidden;
+        height:250px;
+        text-align: center;
+        img{
+            width:200px;
+        }
+        margin-left:87px;
+    }
+    li:last-child {
+        float:right;
+        margin-right:87px;
+        margin-left:0px;
+    }
+}
+
+#jot-streepje2 {
+    margin-bottom:50px;
+}
+
+#schrijfjein-text {
+    width: 100%;
+    height:auto;
+    float:left;
+}
+
 @media screen and (min-width: 750px) {
     .lijstpersonen {
         margin-left:20px;
@@ -291,5 +370,35 @@ h3 {
         margin-left:0px;
         margin-right:0px;
         margin-top:20px;
+    }
+    
+    .jot-item {
+        width:100%;
+        float:left;
+        height:auto;
+    }
+    
+    #jot-contact-container {
+        width:100%;
+    }
+    
+    #jot-contact {
+        width:100%;
+        li {
+            float:left;
+            width:100%; 
+            margin-bottom:20px;
+            display: inline-block;
+            margin-left:0px;
+            margin-right:0px;
+        }
+        li:last-child {
+            margin-left:0px;
+            margin-right:0px;
+        }
+    }
+    
+    #jot-streepje2 {
+        margin-top:70px;
     }
 }

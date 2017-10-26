@@ -11,6 +11,7 @@ function changeSize() {
     setChapterMaxHeight();
     skipIntroductionPage();
     buildMobileGrid();
+    getNormalContainer();
 }
 
 function setContextHeight() {

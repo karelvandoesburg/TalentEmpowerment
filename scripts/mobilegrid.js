@@ -29,3 +29,13 @@ function buildMobileGrid() {
         $sectionwrapper.css({"height" : sectionheight+'px'});
     } 
 }
+
+function getNormalContainer() {
+    if($(window).width() > 999) {
+        $sectionwrapper.css({"height" : "100%"});
+        $homepicture1.css({"height" : "66%"});
+        $homepicture3.css({"height" : "66%"});
+        $homepicture5.css({"height" : "34%"});
+        $homepicture6.css({"height" : "34%"});
+    }
+}

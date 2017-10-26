@@ -38,3 +38,7 @@ var $doortopstudenten = $('#door-topstudenten');
 var $joinourteam = $('#join-our-team');
 var $partners = $('#partners');
 var $chapter = $('.chapter');
+
+//mobile
+var BGratio = 389/580;
+var SGratio = 201/580;

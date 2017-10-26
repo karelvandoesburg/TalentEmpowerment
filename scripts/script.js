@@ -10,6 +10,7 @@ function changeSize() {
     setInformationHeight($voortopsporters);
     setChapterMaxHeight();
     skipIntroductionPage();
+    buildMobileGrid();
 }
 
 function setContextHeight() {

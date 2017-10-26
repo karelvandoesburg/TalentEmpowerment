@@ -22,25 +22,6 @@ function goToContextPage() {
     setMarginTop = function(){};   
 }
 
-function skipIntroductionPage(){
-    console.log('hij wordt aangeroepen');
-    if($(window).width() < 1000) {
-        $sectionwrapper.show();
-        $logo.css({'top' : '-400px'});
-        $start.css({'top' : '-500px'});
-        $sectionwrapper.css({'top' : '0px'});
-        setMarginTop = function(){};
-        $homepicture1.css({"opacity" : "1"});
-        $homepicture3.css({"opacity" : "1"});
-        $homepicture5.css({"opacity" : "1"});
-        $homepicture6.css({"opacity" : "1"});
-        $bartext.css({"opacity" : "1"});
-        $barlogo.css({"opacity" : "1"});
-        changeAllImages();
-        setContextHeight();
-    }
-}
-
 function showHomeGrid() {
     var dur = 800;
     var del = 1600

@@ -65,23 +65,105 @@ h3 {
     li{
         vertical-align: top;
         width:$quarterwidth;
-        height:455px;
+        height:350px;
         display: inline-block;
-        margin-right:$quartermarginwidth;
-    }
-    li:first-child {
-        margin-left:-50px;
-        padding-left:10px;
-    }
-    li:last-child {
-        margin-right:0px;
+        margin-right:10px;
+        margin-left:10px;
     }
 }
 
 .titel {
-    width:230px;
-    height:80px;
+    width:auto;
+    height:60px;
     h1{
         text-align: center;
+    }
+}
+
+#naam {
+    float:left;
+    font-family:Raleway-LightItalic;
+    text-align: right;
+    width:100%;
+    height:50px;
+    font-size:24px;
+    margin-top:20px;
+}
+
+#streepje2 {
+    margin-top:40px;
+    margin-bottom:40px;
+}
+
+#streepje3 {
+    margin-top:50px;
+    margin-bottom:0px;
+}
+
+#heading2 {
+    width:350px;
+    margin-left:-175px;
+}
+
+.lijstpersonen {
+    float:left;
+    margin-left:20px;
+    .hockeybaas {
+        width:100%;
+        height:600px;
+        margin-top:20px;
+    }
+    list-style-type: none;
+    img {
+        width:400px;
+    }
+}
+
+.profiel {
+    .gegeven {
+        margin-top:2px;
+        text-align: center;
+        list-style-type:none;
+        height:25px;
+        width:100%;
+    }
+    .gegeven:first-child {
+        font-family:Raleway-Bold;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .lijstpersonen {
+        margin-left:20px;
+        .hockeybaas {
+            width:100%;
+            height:20vw;
+            margin-top:20vw;
+            float:left;
+        }
+        list-style-type: none;
+        img {
+            float:left;
+            width:35vw;
+        }  
+    }
+
+    .profiel {
+        position: relative;
+        .gegeven {
+            margin-top:2px;
+            text-align: left;
+            list-style-type:none;
+            height:25px;
+            float:right;
+            width: 50vw;
+        }
+        .gegeven:first-child {
+            font-family:Raleway-Bold;
+        }
+    }
+    
+    #streepje3 {
+        margin-bottom:-100px;
     }
 }

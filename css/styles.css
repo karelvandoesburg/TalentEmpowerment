@@ -519,6 +519,8 @@
   margin-bottom: 80px; }
 
 #dt-onderdelen {
+  float: left;
+  margin-top: 50px;
   list-style-type: none;
   padding: 0; }
   #dt-onderdelen li:last-child {

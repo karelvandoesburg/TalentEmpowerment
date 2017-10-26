@@ -142,7 +142,7 @@ h3 {
   .lijstpersonen .hockeybaas {
     width: 100%;
     height: 600px;
-    margin-top: 25px; }
+    margin-top: 20px; }
   .lijstpersonen img {
     width: 400px; }
 
@@ -155,6 +155,89 @@ h3 {
 
 .profiel .gegeven:first-child {
   font-family: Raleway-Bold; }
+
+#hot-header {
+  margin-top: 50px; }
+
+#dt-onderdelen {
+  text-align: center;
+  width: 100%;
+  margin-left: 3vw;
+  float: left;
+  list-style-type: none;
+  padding: 0; }
+  #dt-onderdelen li:last-child {
+    margin-bottom: 0px; }
+
+#dt-header {
+  width: 860px;
+  height: 70px;
+  margin-bottom: 30px;
+  float: left;
+  font-size: 35px; }
+
+.dt-onderdeel {
+  height: 250px;
+  width: 94%;
+  margin-bottom: 50px;
+  float: left; }
+
+.dt-picture {
+  height: 240px;
+  width: 400px;
+  float: left;
+  background-color: green;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.dt-left {
+  float: left; }
+
+.dt-right {
+  float: right; }
+
+.dt-textleft {
+  float: left;
+  margin-left: 15px; }
+
+.dt-textright {
+  float: right;
+  margin-right: 15px; }
+
+.dt-text-container {
+  width: 370px;
+  height: 240px; }
+
+#dt-picture1 {
+  background-image: url(cssimages/dt-persoonlijkecoach.jpg); }
+
+#dt-picture2 {
+  background-image: url(cssimages/dt-sportsmeetsbusiness.jpg); }
+
+#dt-picture3 {
+  background-image: url(cssimages/dt-trainingsprogramma.jpg); }
+
+#dt-picture4 {
+  background-image: url(cssimages/dt-verantwoordelijkheid.jpg); }
+
+.dt-streepje {
+  float: left; }
+
+#dt-streepje1 {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+#dt-streepje2 {
+  margin-top: 60px;
+  margin-bottom: 30px; }
+  #dt-streepje2 .heading {
+    width: 600px;
+    margin-left: -300px; }
+
+#dt-heading2 {
+  width: 500px;
+  margin-left: -250px; }
 
 @media screen and (min-width: 750px) {
   .lijstpersonen {

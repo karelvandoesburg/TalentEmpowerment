@@ -1,0 +1,119 @@
+@font-face {
+  font-family: Anton;
+  src: url("fonts/Oswald/Oswald-Light.ttf"); }
+
+@font-face {
+  font-family: Oswald-ExtraLight;
+  src: url("fonts/Oswald/Oswald-ExtraLight.ttf"); }
+
+@font-face {
+  font-family: Oswald-Regular;
+  src: url("fonts/Oswald/Oswald-Regular.ttf"); }
+
+@font-face {
+  font-family: Oswald-Medium;
+  src: url("fonts/Oswald/Oswald-Medium.ttf"); }
+
+@font-face {
+  font-family: Oswald-Bold;
+  src: url("fonts/Oswald/Oswald-Bold.ttf"); }
+
+@font-face {
+  font-family: CreteRound-SemiBoldItalic;
+  src: url("fonts/CreteRound/CreteRound-Italic.ttf"); }
+
+@font-face {
+  font-family: Raleway-Medium;
+  src: url("fonts/Raleway/Raleway-medium.ttf"); }
+
+@font-face {
+  font-family: Raleway-Regular;
+  src: url("fonts/Raleway/Raleway-regular.ttf"); }
+
+@font-face {
+  font-family: Raleway-Bold;
+  src: url("fonts/Raleway/Raleway-bold.ttf"); }
+
+@font-face {
+  font-family: Raleway-Light;
+  src: url("fonts/Raleway/Raleway-Light.ttf"); }
+
+@font-face {
+  font-family: Raleway-ExtraLight;
+  src: url("fonts/Raleway/Raleway-ExtraLight.ttf"); }
+
+@font-face {
+  font-family: Raleway-LightItalic;
+  src: url("fonts/Raleway/Raleway-LightItalic.ttf"); }
+
+* {
+  list-style-type: none;
+  font-family: Raleway-Regular;
+  color: #585757;
+  text-align: center; }
+  * ul {
+    padding: 0; }
+
+h1 {
+  text-align: center;
+  font-family: Raleway-Medium;
+  color: #585757;
+  font-size: 24px;
+  -webkit-filter: blur(0.3px);
+  filter: blur(0.3px); }
+
+h2 {
+  font-family: Raleway-Regular;
+  text-align: center;
+  color: #585757;
+  font-size: 32px;
+  -webkit-filter: blur(0.3px);
+  filter: blur(0.3px);
+  margin-top: 0px; }
+
+h3 {
+  color: #585757; }
+
+.streepje {
+  height: 1px;
+  background-color: #2cdf11;
+  width: 100%;
+  margin-top: 40px;
+  float: left; }
+
+.heading {
+  position: absolute;
+  margin-top: -20px;
+  width: 400px;
+  height: 40px;
+  background-color: white;
+  left: 50%;
+  margin-left: -200px;
+  float: left; }
+
+.ul1 {
+  margin-top: 20px;
+  list-style-type: none;
+  text-align: center; }
+  .ul1 span {
+    margin-top: 0px; }
+  .ul1 h1 {
+    margin-top: 0px;
+    font-size: 24px; }
+  .ul1 li {
+    vertical-align: top;
+    width: 195px;
+    height: 455px;
+    display: inline-block;
+    margin-right: 20px; }
+  .ul1 li:first-child {
+    margin-left: -50px;
+    padding-left: 10px; }
+  .ul1 li:last-child {
+    margin-right: 0px; }
+
+.titel {
+  width: 230px;
+  height: 80px; }
+  .titel h1 {
+    text-align: center; }

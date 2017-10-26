@@ -41,3 +41,19 @@ function getNormalContainer() {
         $homepicture6.css({"height" : "34%"});
     }
 }
+
+function goToTopsportersMobile() {
+    window.location = "file:///C:/Users/karel/Documents/WebDevelopment/TalentEmpowerment/voortopsportersmobile.html";
+}
+
+function goToTopstudentenMobile(){
+    window.location = "http://www.google.com/";
+}
+
+function goToJoinMobile() {
+    window.location = "http://www.google.com/";
+}
+
+function goToPartnersMobile() {
+    window.location = "http://www.google.com/";
+}

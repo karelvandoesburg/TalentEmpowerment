@@ -1,0 +1,87 @@
+@import "mobilevariables";
+@import "mobilefonts.scss";
+
+* {
+    list-style-type:none;
+    ul {
+        padding:0;
+    }
+    font-family: Raleway-Regular;
+    color:$textgrey;
+    text-align: center;
+}
+
+h1 {
+        text-align: center;
+        font-family: Raleway-Medium;
+        color: $textgrey;
+        font-size:24px;
+        filter:blur(0.3px);
+    }
+
+    h2 {
+        font-family: Raleway-Regular;
+        text-align: center;
+        color: $textgrey;
+        font-size:32px;
+        filter:blur(0.3px);
+        margin-top:0px;
+    }
+
+h3 {
+        color:$textgrey;
+}
+
+.streepje {
+    height:1px;
+    background-color: $green;
+    width: 100%;
+    margin-top:40px;
+    float:left;
+}
+
+.heading {
+    position: absolute;
+    margin-top:-20px;
+    width:400px;
+    height:40px;
+    background-color: white;
+    left:50%;
+    margin-left:-(200px);
+    float:left;
+}
+
+.ul1 {
+    span{
+            margin-top:0px;
+        }
+    h1 {
+        margin-top:0px;
+        font-size:24px;
+    }
+    margin-top:20px;
+    list-style-type: none;
+    text-align: center;
+    li{
+        vertical-align: top;
+        width:$quarterwidth;
+        height:455px;
+        display: inline-block;
+        margin-right:$quartermarginwidth;
+    }
+    li:first-child {
+        margin-left:-50px;
+        padding-left:10px;
+    }
+    li:last-child {
+        margin-right:0px;
+    }
+}
+
+.titel {
+    width:230px;
+    height:80px;
+    h1{
+        text-align: center;
+    }
+}

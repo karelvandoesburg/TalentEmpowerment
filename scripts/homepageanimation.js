@@ -60,11 +60,17 @@ $homepicture1.on('click', function() {
     if($(window).width() > 999) {
         showContext($voortopsporters);
     }
+    else {
+        goToTopsportersMobile();
+    }
 })
 
 $homepicture3.on('click', function() {
     if($(window).width() > 999) {
         showContext($doortopstudenten);
+    }
+    else {
+        goToTopsportersMobile();
     }
 })
 
@@ -72,11 +78,17 @@ $homepicture5.on('click', function() {
     if($(window).width() > 999) {
         showContext($joinourteam);
     }
+    else {
+        goToJoinMobile();
+    }
 })
 
 $homepicture6.on('click', function() {
     if($(window).width() > 999) {
         showContext($partners);
+    }
+    else {
+        goToPartnersMobile();
     }
 })
 

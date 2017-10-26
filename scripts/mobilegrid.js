@@ -47,13 +47,13 @@ function goToTopsportersMobile() {
 }
 
 function goToTopstudentenMobile(){
-    window.location = "http://www.google.com/";
+    window.location = "file:///C:/Users/karel/Documents/WebDevelopment/TalentEmpowerment/doortopstudentenmobile.html";
 }
 
 function goToJoinMobile() {
-    window.location = "http://www.google.com/";
+    window.location = "file:///C:/Users/karel/Documents/WebDevelopment/TalentEmpowerment/joinourteammobile.html";
 }
 
 function goToPartnersMobile() {
-    window.location = "http://www.google.com/";
+    window.location = "file:///C:/Users/karel/Documents/WebDevelopment/TalentEmpowerment/partnersmobile.html";
 }

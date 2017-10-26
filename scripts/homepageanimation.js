@@ -70,7 +70,7 @@ $homepicture3.on('click', function() {
         showContext($doortopstudenten);
     }
     else {
-        goToTopsportersMobile();
+        goToTopstudentenMobile();
     }
 })
 

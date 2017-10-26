@@ -264,3 +264,19 @@ h3 {
       font-family: Raleway-Bold; }
   #streepje3 {
     margin-bottom: -100px; } }
+
+@media screen and (max-width: 880px) {
+  .dt-onderdeel {
+    height: auto;
+    width: 94%;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    text-align: center; }
+  .dt-text-container {
+    width: 100%;
+    height: auto; }
+  .dt-picture {
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 20px; } }

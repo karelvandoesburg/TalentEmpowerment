@@ -68,11 +68,9 @@
   background-color: #252527; }
 
 #intro-logo {
-  border-width: 2px;
-  border-style: solid;
   border-color: rgba(255, 255, 255, 0.5);
   position: absolute;
-  height: 70px;
+  height: 3.5vw;
   background-image: url("images/Hockeybaas_print_groen2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -80,36 +78,34 @@
   top: -400px; }
 
 #start {
-  background-color: rgba(255, 183, 133, 0.2);
-  width: 550px;
-  height: 345px;
+  background-color: red;
+  width: 40vw;
+  height: 26vw;
   position: absolute;
   left: 70%;
-  margin-left: -225px;
-  top: -500px;
+  margin-left: -18vw;
+  top: -30vw;
   border-style: solid;
-  border-color: white;
-  border-width: 8px; }
+  border-width: 0.4vw;
+  border-color: white; }
 
 #start-button {
-  width: 542px;
-  height: 30px;
+  width: 40vw;
+  height: 2.6vw;
   color: black;
   position: relative;
   background-color: white;
   font-family: 'anton';
-  font-size: 20px;
+  font-size: 1.3vw;
+  padding-top: 0.4vw;
+  margin-top: 1vw;
   letter-spacing: 0.10em;
   -webkit-filter: blur(0.3px);
   filter: blur(0.3px);
   cursor: pointer;
   text-align: center;
   -webkit-animation: hoverText 2.5s ease none;
-  animation: hoverText 2.5s ease none;
-  border-style: solid;
-  border-color: white;
-  border-width: 8px;
-  margin-top: 10px; }
+  animation: hoverText 2.5s ease none; }
 
 #start-button:hover {
   color: #2cdf11 !important; }
@@ -119,10 +115,8 @@
   font-family: 'Anton';
   position: relative;
   color: white;
-  margin-left: 20px;
-  margin-top: -5px;
-  line-height: 150px;
-  font-size: 120px; }
+  font-size: 3vw;
+  margin-left: 1vw; }
 
 #section-wrapper {
   position: absolute;

@@ -31,9 +31,7 @@ function moveDownLogo() {
 }
 
 function moveDownText() {
-    var windowheight = getCorrectHeight();
-    var height = $intro.height() * 0.60-173;
     $start.velocity({
-        'top' : height + 'px'
+        'top' : "40vh"
     }, {duration: 1300, easing: 'easeInOutQuart', delay: 400})
 }

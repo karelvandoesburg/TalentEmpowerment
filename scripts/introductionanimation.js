@@ -32,6 +32,6 @@ function moveDownLogo() {
 
 function moveDownText() {
     $start.velocity({
-        'top' : "40vh"
+        'top' : "42vh"
     }, {duration: 1300, easing: 'easeInOutQuart', delay: 400})
 }

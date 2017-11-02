@@ -164,6 +164,7 @@ h3 {
   width: 100%;
   margin-left: 3vw;
   float: left;
+  margin-top: 50px;
   list-style-type: none;
   padding: 0; }
   #dt-onderdelen li:last-child {
@@ -304,6 +305,7 @@ h3 {
 
 @media screen and (min-width: 750px) {
   .lijstpersonen {
+    margin-top: -100px;
     margin-left: 20px;
     list-style-type: none; }
     .lijstpersonen .hockeybaas {

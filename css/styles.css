@@ -79,7 +79,7 @@
 
 #start {
   background-color: rgba(255, 183, 133, 0.2);
-  width: 40vw;
+  width: 36vw;
   height: 22vw;
   position: absolute;
   left: 70%;
@@ -90,7 +90,7 @@
   border-color: white; }
 
 #start-button {
-  width: 40.4vw;
+  width: 36.4vw;
   height: 2.6vw;
   color: black;
   position: relative;

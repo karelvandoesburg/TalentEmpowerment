@@ -2,15 +2,16 @@
 $(window).resize(changeSize);
 
 function changeSize() {
-    changeBackgroundSize();
     setMarginTop();
-    setStartButtonMargin();
     setContextHeight();
     setInformationHeight($voortopsporters);
     setChapterMaxHeight();
     skipIntroductionPage();
     getNormalContainer();
     changeAllImages();
+    changeBackgroundSize();
+    moveCover();
+    moveStart();
 }
 
 function setContextHeight() {
@@ -33,12 +34,6 @@ function setMarginTop() {
     });
 }
 
-function setStartButtonMargin() {
-    var height = getCorrectHeight();
-    var top = height*0.60-173;
-    $start.css({'top' : top + 'px'});
-}
-
 function getCorrectHeight() {
     var window = $(window).height();
     var background = $intro.height();
@@ -57,6 +52,9 @@ function changeBackgroundSize() {
     var height_picture = $(window).height();
     $('#intro-wrapper').css({"height" : height_picture});
 }
+
+function moveCover() {};
+function moveStart() {};
 
 function changeAllImages() {
     changeImage($photo1,picture1ratio,$homepicture1);

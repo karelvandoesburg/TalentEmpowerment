@@ -10,6 +10,7 @@ function backgroundAnimation() {
     moveDownPicture();
     moveDownLogo();
     moveDownText();
+    makeMoveCover();
 }
 
 function moveDownCover() {
@@ -31,7 +32,21 @@ function moveDownLogo() {
 }
 
 function moveDownText() {
+    var top = $intro.height()*0.42;
     $start.velocity({
-        'top' : "42vh"
+        'top' : top + 'px'
     }, {duration: 1300, easing: 'easeInOutQuart', delay: 400})
+}
+
+function makeMoveCover() {
+    setTimeout(function() {
+        moveCover = function() {
+            $cover.css({"top":$(window).height() + 'px'});
+        }
+        moveStart = function() {
+            $start.css({
+                'top' : $intro.height()*0.42 + 'px'
+            })
+        }
+    },1900);
 }

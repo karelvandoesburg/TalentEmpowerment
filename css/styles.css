@@ -521,7 +521,8 @@
     float: left; }
   .lijstpersonen img {
     float: left;
-    height: 200px; }
+    height: 200px;
+    border-radius: 5px 5px 5px 5px; }
 
 .profiel {
   position: relative;
@@ -569,7 +570,8 @@
   background-color: green;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  border-radius: 5px 5px 5px 5px; }
 
 .dt-left {
   float: left; }

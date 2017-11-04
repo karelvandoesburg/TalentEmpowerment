@@ -136,7 +136,7 @@ h3 {
   margin-left: -175px; }
 
 .lijstpersonen {
-  float: left;
+  margin-top: 200px;
   margin-left: 20px;
   list-style-type: none; }
   .lijstpersonen .hockeybaas {
@@ -144,7 +144,8 @@ h3 {
     height: 600px;
     margin-top: 20px; }
   .lijstpersonen img {
-    width: 400px; }
+    width: 400px;
+    border-radius: 5px 5px 5px 5px; }
 
 .profiel .gegeven {
   margin-top: 2px;
@@ -155,6 +156,18 @@ h3 {
 
 .profiel .gegeven:first-child {
   font-family: Raleway-Bold; }
+
+.lijstpersonen2 {
+  float: left;
+  margin-left: 20px;
+  list-style-type: none; }
+  .lijstpersonen2 .hockeybaas {
+    width: 100%;
+    height: 600px;
+    margin-top: 20px; }
+  .lijstpersonen2 img {
+    width: 400px;
+    border-radius: 5px 5px 5px 5px; }
 
 #hot-header {
   margin-top: 50px; }
@@ -184,6 +197,7 @@ h3 {
   float: left; }
 
 .dt-picture {
+  border-radius: 5px 5px 5px 5px;
   height: 240px;
   width: 400px;
   float: left;

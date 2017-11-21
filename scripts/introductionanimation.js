@@ -2,6 +2,7 @@ $(window).ready(function() {
     setMarginTop();
     changeBackgroundSize();
     backgroundAnimation();
+    processMobile();
     skipIntroductionPage();
 });
 
@@ -50,3 +51,13 @@ function makeMoveCover() {
         }
     },1900);
 }
+
+function processMobile() {
+    if(isMobileDevice()) {
+        $homegrid.removeClass("computer");
+    }
+}
+
+function isMobileDevice() {
+    return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+};

@@ -43,17 +43,17 @@ function getNormalContainer() {
 }
 
 function goToTopsportersMobile() {
-    window.location = "file:///C:/Users/karel/Documents/WebDevelopment/TalentEmpowerment/voortopsportersmobile.html";
+    window.location = "www.talentempowerment.nl/doortopsporters.nl";
 }
 
 function goToTopstudentenMobile(){
-    window.location = "file:///C:/Users/karel/Documents/WebDevelopment/TalentEmpowerment/doortopstudentenmobile.html";
+    window.location = "www.talentempowerment.nl/voortopsporters.nl";
 }
 
 function goToJoinMobile() {
-    window.location = "file:///C:/Users/karel/Documents/WebDevelopment/TalentEmpowerment/joinourteammobile.html";
+    window.location = "www.talentempowerment.nl/joinourteam.nl";
 }
 
 function goToPartnersMobile() {
-    window.location = "file:///C:/Users/karel/Documents/WebDevelopment/TalentEmpowerment/partnersmobile.html";
+    window.location = "www.talentempowerment.nl/partners.nl";
 }

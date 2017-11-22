@@ -30,7 +30,7 @@ function showHomeGrid() {
     showHomePicture($homepicture3, del, dur);
     showHomePicture($homepicture5, del, dur);
     showHomePicture($homepicture6, del, dur);
-    showHomePicture($bartext, del, dur);
+    showHomePicture($bar, del, dur);
     showHomePicture($('#bar-logo'), del, dur);
 }
 

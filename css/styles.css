@@ -182,6 +182,7 @@
   filter: blur(10px); }
 
 #bar {
+  opacity: 0;
   position: absolute;
   width: 100%;
   height: 6vh;
@@ -189,8 +190,7 @@
   Z-index: 4;
   text-align: right; }
 
-#bartext {
-  opacity: 0;
+.bartext {
   position: absolute;
   text-align: right;
   color: #f8f9fb;
@@ -200,8 +200,14 @@
   letter-spacing: 0.05em;
   font-family: "Oswald";
   font-weight: 200; }
-  #bartext span {
+  .bartext span {
     color: #2cdf11; }
+
+#bartext-computer {
+  opacity: 1; }
+
+#bartext-mobile {
+  opacity: 0; }
 
 #bar-logo {
   opacity: 0;
@@ -762,6 +768,12 @@
     width: 46vw; }
   #text-container-4 {
     width: 31vw; } }
+
+@media screen and (max-width: 670px) {
+  #bartext-computer {
+    opacity: 0; }
+  #bartext-mobile {
+    opacity: 1; } }
 
 * {
   margin: 0px auto; }

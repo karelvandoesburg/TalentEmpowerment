@@ -32,3 +32,13 @@
         width:31vw;
     }
 }
+
+@media screen and (max-width: 670px) {
+    #bartext-computer {
+        opacity: 0;
+    }
+    
+    #bartext-mobile {
+        opacity: 1;
+    }
+}

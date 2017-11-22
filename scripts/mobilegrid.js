@@ -9,7 +9,7 @@ function skipIntroductionPage(){
         $homepicture3.css({"opacity" : "1"});
         $homepicture5.css({"opacity" : "1"});
         $homepicture6.css({"opacity" : "1"});
-        $bartext.css({"opacity" : "1"});
+        $bar.css({"opacity" : "1"});
         $barlogo.css({"opacity" : "1"});
         setContextHeight();
         buildMobileGrid();

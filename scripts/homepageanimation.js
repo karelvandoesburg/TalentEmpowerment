@@ -1,4 +1,4 @@
-$startbutton.on('click', function(){
+$start.on('click', function(){
     $sectionwrapper.show();
     goToContextPage();
     showHomeGrid();

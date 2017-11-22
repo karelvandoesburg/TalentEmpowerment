@@ -87,7 +87,8 @@
   top: -30vw;
   border-style: solid;
   border-width: 0.4vw;
-  border-color: white; }
+  border-color: white;
+  cursor: pointer; }
 
 #start-button {
   width: 36.4vw;
@@ -104,12 +105,11 @@
   letter-spacing: 0.10em;
   -webkit-filter: blur(0.3px);
   filter: blur(0.3px);
-  cursor: pointer;
   text-align: center;
   -webkit-animation: hoverText 2.5s ease none;
   animation: hoverText 2.5s ease none; }
 
-#start-button:hover {
+#start:hover > #start-button {
   color: #2cdf11 !important; }
 
 #start-text {

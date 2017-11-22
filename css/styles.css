@@ -182,8 +182,8 @@
   filter: blur(10px); }
 
 #bar {
+  float: left;
   opacity: 0;
-  position: absolute;
   width: 100%;
   height: 6vh;
   background: #252527;
@@ -223,7 +223,7 @@
 
 #home-picture-1 {
   width: 50%;
-  height: 66%;
+  height: 62%;
   z-index: 1;
   float: left; }
   #home-picture-1 h2:after {
@@ -247,13 +247,13 @@
 
 #text-container-1 {
   position: absolute;
-  top: 14%;
+  top: 8%;
   left: 8%;
   width: 21vw; }
 
 #text-container-2 {
   position: absolute;
-  top: 14%;
+  top: 8%;
   right: 8%;
   width: 22.5vw; }
 
@@ -271,7 +271,7 @@
 
 #home-picture-3 {
   width: 50%;
-  height: 66%;
+  height: 62%;
   float: right; }
   #home-picture-3 h1, #home-picture-3 h2 {
     text-align: right !important; }
@@ -295,12 +295,12 @@
 #grid-2 {
   position: relative;
   width: 100%;
-  height: 34%;
+  height: 32vh;
   text-align: center; }
 
 #home-picture-6 {
   width: 50%;
-  height: 34%;
+  height: 32vh;
   float: right;
   text-align: right; }
 
@@ -749,7 +749,6 @@
 
 @media screen and (max-width: 1000px) {
   #home-picture-1 {
-    margin-top: 6vh;
     width: 100%; }
   #home-picture-3 {
     width: 100%;

@@ -22,11 +22,12 @@ function buildMobileGrid() {
     if(width < 1000) {
         var bigheight = BGratio * width;
         var smallheight = SGratio * width;
+        var barheight = $bar.height();
         $homepicture1.css({"height" : bigheight + "px"});
         $homepicture3.css({"height" : bigheight + "px"});
         $homepicture5.css({"height" : smallheight + "px"});
         $homepicture6.css({"height" : smallheight + "px"});
-        var sectionheight = 2*bigheight + 2*smallheight;
+        var sectionheight = 2*bigheight + 2*smallheight + barheight;
         $sectionwrapper.css({"height" : sectionheight+'px'});
         hideContext();
     } 
@@ -35,10 +36,10 @@ function buildMobileGrid() {
 function getNormalContainer() {
     if($(window).width() > 999) {
         $sectionwrapper.css({"height" : "100%"});
-        $homepicture1.css({"height" : "66%"});
-        $homepicture3.css({"height" : "66%"});
-        $homepicture5.css({"height" : "34%"});
-        $homepicture6.css({"height" : "34%"});
+        $homepicture1.css({"height" : "62%"});
+        $homepicture3.css({"height" : "62%"});
+        $homepicture5.css({"height" : "32%"});
+        $homepicture6.css({"height" : "32%"});
     }
 }
 

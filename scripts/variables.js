@@ -22,6 +22,7 @@ var $photo1 = $('#photo1');
 var $photo2 = $('#photo2');
 var $photo3 = $('#photo3');
 var $photo4 = $('#photo4');
+var intropictureratio = 2476/1355;
 var picture1ratio = 3321/1671;
 var picture2ratio = 3134/2333;
 var picture3ratio = 2612/1181;

@@ -1,4 +1,5 @@
 $(window).ready(function() {
+    setIntroImageDimensions();
     setMarginTop();
     changeBackgroundSize();
     backgroundAnimation();
@@ -12,6 +13,10 @@ function backgroundAnimation() {
     moveDownLogo();
     moveDownText();
     makeMoveCover();
+}
+
+function setIntroImageDimensions() {
+    changeImageDimension($intro,intropictureratio,$(window));
 }
 
 function moveDownCover() {

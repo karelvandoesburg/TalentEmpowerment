@@ -2,6 +2,7 @@
 $(window).resize(changeSize);
 
 function changeSize() {
+    setIntroImageDimensions();
     setMarginTop();
     setContextHeight();
     setInformationHeight($voortopsporters);

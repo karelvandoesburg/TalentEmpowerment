@@ -44,17 +44,17 @@ function getNormalContainer() {
 }
 
 function goToTopsportersMobile() {   
-    window.location.href = "www.talentempowerment.nl/voortopsportersmobile";
+    window.location.href = "www.talentempowerment.nl/voortopsportersmobile.html";
 }
 
 function goToTopstudentenMobile(){
-    window.location = "www.talentempowerment.nl/doortopstudentenmobile";
+    window.location = "www.talentempowerment.nl/doortopstudentenmobile.html";
 }
 
 function goToJoinMobile() {
-    window.location = "www.talentempowerment.nl/joinourteammobile";
+    window.location = "www.talentempowerment.nl/joinourteammobile.html";
 }
 
 function goToPartnersMobile() {
-    window.location = "www.talentempowerment.nl/partnersmobile";
+    window.location = "www.talentempowerment.nl/partnersmobile.html";
 }

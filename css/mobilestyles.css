@@ -412,3 +412,39 @@ h3 {
       margin-right: 0px; }
   #jot-streepje2 {
     margin-top: 70px; } }
+
+button {
+  -webkit-appearance: none;
+  background: transparent;
+  border: 0;
+  outline: 0; }
+
+svg {
+  padding: 5px; }
+
+.arrow {
+  margin-right: 90%;
+  cursor: pointer;
+  top: 50%;
+  margin-top: 0px;
+  width: 70px;
+  height: 90px; }
+
+.left {
+  left: 42%; }
+
+.left:hover polyline,
+.left:focus polyline {
+  stroke-width: 3; }
+
+.left:active polyline {
+  stroke-width: 6;
+  -webkit-transition: all 100ms ease-in-out;
+  -o-transition: all 100ms ease-in-out;
+  transition: all 100ms ease-in-out; }
+
+polyline {
+  -webkit-transition: all 250ms ease-in-out;
+  -o-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  stroke: #2cdf11; }

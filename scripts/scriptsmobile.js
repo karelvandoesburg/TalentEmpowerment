@@ -5,3 +5,7 @@ function changeSize() {
         window.location = "file:///C:/Users/karel/Documents/WebDevelopment/TalentEmpowerment/index.html";
     }
 }
+
+$("button").on('click', function(){
+   window.location.href = "www.talentempowerment.nl";
+});

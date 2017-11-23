@@ -2,10 +2,10 @@ $(window).resize(changeSize);
 
 function changeSize() {
     if($(window).width() > 999) {
-        window.location = "file:///C:/Users/karel/Documents/WebDevelopment/TalentEmpowerment/index.html";
+        window.location.href = "http://www.talentempowerment.nl";
     }
 }
 
 $("button").on('click', function(){
-   window.location.href = "www.talentempowerment.nl";
+   window.location.href = "http://www.talentempowerment.nl";
 });

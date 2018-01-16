@@ -9,9 +9,6 @@
         <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css" />
         <link href="https://fonts.googleapis.com/css?family=Raleway:300i,500,400,700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400" rel="stylesheet">
-        
-        <script src="scripts/Libraries/jquery-3.2.1.min.js"></script>
-        <script src="scripts/Libraries/velocity.min.js"></script>
     </head>
     
     <body>
@@ -474,40 +471,43 @@
                 
                 <div id='bar'><img id='bar-logo' src='images/Logo.jpg'><div id='bartext-computer' class='bartext'>Voor meer informatie, stuur een mail naar <span>Laurens@talentempowerment.nl</span></div><div id='bartext-mobile' class='bartext'>info: <span>Laurens@talentempowerment.nl</span></div></div>
                 
-                    <div id='home-picture-1' class='home-grid computer'>
-                        <img src='images/hockeydame.jpg' id="photo1">
-                        <div class='emboss'></div>
-                        <div id='text-container-1'>
-                            <h1>voor</h1><h2>Topsporters</h2>
-                        </div>
+                <div id='home-gridlinksboven' class='home-grid computer'>
+                    <img src='images/hockeydame.jpg' id="home-fotolinksboven">
+                    <div class='home-emboss'></div>
+                    <div id='home-tekstlinksboven'>
+                        <h1>voor</h1><h2>Topsporters</h2>
                     </div>
-                    <div id='home-picture-3' class='home-grid computer'>
-                        <img src='images/studentenboek2.jpg'
-                              id="photo2">
-                        <div class='emboss'></div>
-                        <div id='text-container-2'>
-                            <h1>door</h1><h2>Topstudenten</h2>
-                        </div>
-                    </div>
+                </div>
                 
-                    <div id='home-picture-5' class='home-grid computer'>
-                        <img src='images/seek-light-banner-study.jpg' id="photo3">
-                        <div class='emboss'></div>
-                        <div id='text-container-3'>
-                            <h2>Join our <span>team</span></h2>
-                        </div>
+                <div id='home-gridrechtsboven' class='home-grid computer'>
+                    <img src='images/studentenboek2.jpg' id="home-fotorechtsboven">
+                    <div class='emboss'></div>
+                    <div id='home-tekstrechtsboven'>
+                        <h1>door</h1><h2>Topstudenten</h2>
                     </div>
-                    <div id='home-picture-6' class='home-grid computer'>
-                        <img src='images/partners5.jpg' id="photo4">
-                        <div class='emboss'></div>
-                        <div id='text-container-4'>
-                            <h2>partners</h2>
-                        </div>
+                </div>
+                
+                <div id='home-gridlinksonder' class='home-grid computer'>
+                    <img src='images/seek-light-banner-study.jpg' id="home-fotolinksonder">
+                    <div class='emboss'></div>
+                    <div id='home-tekstlinksonder'>
+                        <h2>Join our <span>team</span></h2>
                     </div>
+                </div>
+                
+                <div id='home-gridrechtsonder' class='home-grid computer'>
+                    <img src='images/partners5.jpg' id="home-fotorechtsonder">
+                    <div class='emboss'></div>
+                    <div id='home-tekstrechtsonder'>
+                        <h2>partners</h2>
+                    </div>
+                </div>
             </div>
         
         </section>
         
+        <script src="scripts/Libraries/jquery-3.2.1.min.js"></script>
+        <script src="scripts/Libraries/velocity.min.js"></script>
         <script src="https://unpkg.com/simplebar@latest/dist/simplebar.js"></script>
         <script src="scripts/variables.js"></script>
         <script src="scripts/mobilegrid.js"></script>

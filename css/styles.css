@@ -252,18 +252,6 @@
   float: right;
   text-align: right; }
 
-#home-context {
-  position: absolute;
-  top: 30px;
-  left: 50%;
-  margin-left: -500px;
-  width: 1000px;
-  height: 500px;
-  background-color: white;
-  z-index: -1;
-  border-radius: 10px 10px 10px 10px;
-  opacity: 0; }
-
 #home-shield {
   position: absolute;
   width: 100%;
@@ -621,27 +609,37 @@
   #bartext-mobile {
     opacity: 0; } }
 
-#home-context h1 {
-  text-align: center;
-  font-family: "Raleway";
-  font-weight: 700;
-  color: #585757;
-  font-size: 24px;
-  letter-spacing: 0.05em;
-  -webkit-filter: blur(0.3px);
-  filter: blur(0.3px); }
+#cc-context {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  margin-left: -500px;
+  width: 1000px;
+  height: 500px;
+  background-color: white;
+  z-index: -1;
+  border-radius: 10px 10px 10px 10px;
+  opacity: 0; }
+  #cc-context h1 {
+    text-align: center;
+    font-family: "Raleway";
+    font-weight: 700;
+    color: #585757;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    -webkit-filter: blur(0.3px);
+    filter: blur(0.3px); }
+  #cc-context h2 {
+    font-family: "Raleway";
+    font-weight: 500;
+    text-align: center;
+    color: #585757;
+    font-size: 32px;
+    letter-spacing: 0.05em;
+    -webkit-filter: blur(0.3px);
+    filter: blur(0.3px); }
 
-#home-context h2 {
-  font-family: "Raleway";
-  font-weight: 500;
-  text-align: center;
-  color: #585757;
-  font-size: 32px;
-  letter-spacing: 0.05em;
-  -webkit-filter: blur(0.3px);
-  filter: blur(0.3px); }
-
-.chapter {
+.cc-chapter {
   width: 880px;
   margin-top: 70px;
   margin-left: 70px;
@@ -652,7 +650,7 @@
   position: absolute;
   top: 0px; }
 
-.container {
+.cc-container {
   position: relative;
   width: 860px;
   height: auto;
@@ -663,14 +661,14 @@
   letter-spacing: 0.05em;
   overflow: hidden; }
 
-.streepje {
+.cc-streepje {
   height: 1px;
   background-color: #2cdf11;
   width: 860px;
   margin-top: 80px;
   float: left; }
 
-.heading {
+.cc-heading {
   position: absolute;
   margin-top: -22px;
   width: 400px;
@@ -679,31 +677,31 @@
   left: 50%;
   margin-left: -200px; }
 
-.lijstpersonen {
+.cc-lijstpersonen {
   float: left;
   margin-top: 50px;
   margin-left: -40px;
   list-style-type: none; }
-  .lijstpersonen .persoon {
+  .cc-lijstpersonen .cc-persoon {
     width: 860px;
     height: 200px;
     margin-top: 60px;
     float: left; }
-  .lijstpersonen img {
+  .cc-lijstpersonen img {
     float: left;
     height: 200px;
     border-radius: 5px 5px 5px 5px; }
 
-.profiel {
+.cc-profiel {
   position: relative;
   margin-left: 200px; }
-  .profiel .gegeven {
+  .cc-profiel .gegeven {
     margin-top: 2px;
     text-align: left;
     list-style-type: none;
     height: 25px;
     width: 590px; }
-  .profiel .gegeven:first-child {
+  .cc-profiel .gegeven:first-child {
     font-family: 'Raleway';
     font-weight: 700; }
 

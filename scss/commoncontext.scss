@@ -1,4 +1,14 @@
-#home-context {  
+#cc-context {
+    position: absolute;
+    top :30px;
+    left:50%;
+    margin-left: -500px;
+    width:1000px;
+    height:500px;
+    background-color: white;
+    z-index: -1;
+    border-radius: 10px 10px 10px 10px;
+    opacity:0;
     h1 {
         text-align: center;
         font-family: "Raleway";
@@ -20,7 +30,7 @@
     }
 }
 
-.chapter {
+.cc-chapter {
     width:($containerwidth+20px);
     margin-top:70px;
     margin-left:70px;
@@ -33,7 +43,7 @@
 }
 
 
-.container {
+.cc-container {
     position: relative;
     width:($containerwidth);
     height:auto;
@@ -45,7 +55,7 @@
     overflow:hidden;
 }
 
-.streepje {
+.cc-streepje {
     height:1px;
     background-color: $green;
     width: $containerwidth;
@@ -53,7 +63,7 @@
     float:left;
 }
 
-.heading {
+.cc-heading {
     position: absolute;
     margin-top:-22px;
     width:400px;
@@ -63,11 +73,11 @@
     margin-left:-(200px);
 }
 
-.lijstpersonen {
+.cc-lijstpersonen {
     float:left;
     margin-top:50px;
     margin-left:-40px;
-    .persoon {
+    .cc-persoon {
         width:$containerwidth;
         height:200px;
         margin-top:60px;
@@ -81,7 +91,7 @@
     }
 }
 
-.profiel {
+.cc-profiel {
     position: relative;
     margin-left:200px;
     .gegeven {

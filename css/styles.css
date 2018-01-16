@@ -56,7 +56,7 @@
     text-decoration: none;
     cursor: pointer; }
 
-#intro {
+#intro-background {
   position: absolute;
   width: 100%;
   top: -400px; }
@@ -390,112 +390,54 @@
   100% {
     color: black; } }
 
-#context h1 {
-  text-align: center;
-  font-family: "Raleway";
-  font-weight: 700;
-  color: #585757;
-  font-size: 24px;
-  letter-spacing: 0.05em;
-  -webkit-filter: blur(0.3px);
-  filter: blur(0.3px); }
-
-#context h2 {
-  font-family: "Raleway";
-  font-weight: 500;
-  text-align: center;
-  color: #585757;
-  font-size: 32px;
-  letter-spacing: 0.05em;
-  -webkit-filter: blur(0.3px);
-  filter: blur(0.3px); }
-
-.chapter {
-  width: 880px;
-  margin-top: 70px;
-  margin-left: 70px;
-  overflow: hidden;
-  position: absolute;
-  height: auto;
-  opacity: 0;
-  position: absolute;
-  top: 0px; }
-
-.container {
-  position: relative;
-  width: 860px;
-  height: auto;
-  float: left;
-  text-align: center;
-  font-family: "Raleway";
-  font-weight: 400;
-  letter-spacing: 0.05em;
-  overflow: hidden; }
-
 #voor-topsporters {
   position: absolute; }
   #voor-topsporters h1 {
     margin-top: 50px; }
 
-#voor-topsporters-text {
+#vt-text {
   float: left; }
 
-.streepje {
-  height: 1px;
-  background-color: #2cdf11;
-  width: 860px;
-  margin-top: 80px;
-  float: left; }
-
-#streepje1 {
+#vt-streepje1 {
   margin-bottom: 80px; }
 
-.heading {
-  position: absolute;
-  margin-top: -22px;
-  width: 400px;
-  height: 40px;
-  background-color: white;
-  left: 50%;
-  margin-left: -200px; }
-
-.ul1 {
+.vt-programmaonderdelen {
   margin-top: 20px;
   list-style-type: none;
   text-align: left;
   float: left; }
-  .ul1 span {
+  .vt-programmaonderdelen span {
     margin-top: 0px; }
-  .ul1 h1 {
+  .vt-programmaonderdelen h1 {
     margin-top: 0px;
     font-size: 24px; }
-  .ul1 li {
+  .vt-programmaonderdelen li {
     vertical-align: top;
     width: 195px;
     height: 455px;
     display: inline-block;
     margin-right: 20px; }
-  .ul1 li:first-child {
+  .vt-programmaonderdelen li:first-child {
     margin-left: -50px;
     padding-left: 10px; }
-  .ul1 li:last-child {
+  .vt-programmaonderdelen li:last-child {
     margin-right: 0px; }
 
-.titel {
+.vt-programmaonderdeel {
   width: 230px;
   height: 80px; }
-  .titel h1 {
+  .vt-programmaonderdeel h1 {
     text-align: left !important; }
 
-#quote {
+#vt-quote {
   width: 860px;
   margin-bottom: 0px;
   margin-top: 30px;
   float: left; }
-  #quote h1 {
+  #vt-quote h1 {
     text-align: left; }
 
-#interview {
+#vt-interview {
   margin-top: 80px;
   width: 860px;
   height: 310px;
@@ -504,7 +446,7 @@
   text-align: left;
   margin-bottom: 70px; }
 
-#interviewfoto {
+#vt-interviewfoto {
   float: left;
   height: 250px;
   padding: 35px;
@@ -512,7 +454,7 @@
   margin-left: -35px;
   border-radius: 40px 40px 40px 40px; }
 
-#naam {
+#vt-quotenaam {
   float: left;
   font-family: "Raleway";
   font-weight: 300;
@@ -523,44 +465,9 @@
   font-size: 24px;
   margin-top: 20px; }
 
-#heading7 {
+#vt-headingtopsporters {
   width: 300px;
   margin-left: -150px; }
-
-#heading2 {
-  width: 350px;
-  margin-left: -175px; }
-
-#streepje3 {
-  float: left; }
-
-.lijstpersonen {
-  float: left;
-  margin-top: 50px;
-  margin-left: -40px;
-  list-style-type: none; }
-  .lijstpersonen .hockeybaas {
-    width: 860px;
-    height: 200px;
-    margin-top: 60px;
-    float: left; }
-  .lijstpersonen img {
-    float: left;
-    height: 200px;
-    border-radius: 5px 5px 5px 5px; }
-
-.profiel {
-  position: relative;
-  margin-left: 200px; }
-  .profiel .gegeven {
-    margin-top: 2px;
-    text-align: left;
-    list-style-type: none;
-    height: 25px;
-    width: 590px; }
-  .profiel .gegeven:first-child {
-    font-family: 'Raleway';
-    font-weight: 700; }
 
 #door-topstudenten {
   position: absolute; }
@@ -742,16 +649,16 @@
     margin-top: 20px;
     margin-bottom: 10px; }
 
-.partner {
+.p-partner {
   width: 860px;
   height: auto;
   float: left;
   margin-top: 50px; }
 
-#kellerman-logo img {
+#p-kellermanlogo img {
   width: 400px; }
 
-#ormit-logo img {
+#p-ormitlogo img {
   width: 250px; }
 
 @media screen and (max-width: 1000px) {
@@ -781,6 +688,92 @@
     opacity: 1; }
   #bartext-mobile {
     opacity: 0; } }
+
+#context h1 {
+  text-align: center;
+  font-family: "Raleway";
+  font-weight: 700;
+  color: #585757;
+  font-size: 24px;
+  letter-spacing: 0.05em;
+  -webkit-filter: blur(0.3px);
+  filter: blur(0.3px); }
+
+#context h2 {
+  font-family: "Raleway";
+  font-weight: 500;
+  text-align: center;
+  color: #585757;
+  font-size: 32px;
+  letter-spacing: 0.05em;
+  -webkit-filter: blur(0.3px);
+  filter: blur(0.3px); }
+
+.chapter {
+  width: 880px;
+  margin-top: 70px;
+  margin-left: 70px;
+  overflow: hidden;
+  position: absolute;
+  height: auto;
+  opacity: 0;
+  position: absolute;
+  top: 0px; }
+
+.container {
+  position: relative;
+  width: 860px;
+  height: auto;
+  float: left;
+  text-align: center;
+  font-family: "Raleway";
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  overflow: hidden; }
+
+.streepje {
+  height: 1px;
+  background-color: #2cdf11;
+  width: 860px;
+  margin-top: 80px;
+  float: left; }
+
+.heading {
+  position: absolute;
+  margin-top: -22px;
+  width: 400px;
+  height: 40px;
+  background-color: white;
+  left: 50%;
+  margin-left: -200px; }
+
+.lijstpersonen {
+  float: left;
+  margin-top: 50px;
+  margin-left: -40px;
+  list-style-type: none; }
+  .lijstpersonen .persoon {
+    width: 860px;
+    height: 200px;
+    margin-top: 60px;
+    float: left; }
+  .lijstpersonen img {
+    float: left;
+    height: 200px;
+    border-radius: 5px 5px 5px 5px; }
+
+.profiel {
+  position: relative;
+  margin-left: 200px; }
+  .profiel .gegeven {
+    margin-top: 2px;
+    text-align: left;
+    list-style-type: none;
+    height: 25px;
+    width: 590px; }
+  .profiel .gegeven:first-child {
+    font-family: 'Raleway';
+    font-weight: 700; }
 
 * {
   margin: 0px auto; }

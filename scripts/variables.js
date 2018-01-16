@@ -1,4 +1,4 @@
-var $sectionwrapper = $('#section-wrapper');
+var $sectionwrapper = $('#home-sectionwrapper');
 var $homewrapper = $('#home-wrapper');
 var $introwrapper = $('#intro-wrapper');
 var $intro = $('#intro-background');
@@ -23,7 +23,7 @@ var picture2ratio = 3134/2333;
 var picture3ratio = 2612/1181;
 var picture4ratio = 2998/2529;
 var $homegrid = $('.home-grid');
-var $context = $('#context');
+var $context = $('#home-context');
 var $shield = $('#home-shield');
 var $close = $('.close');
 var $bar = $('#home-bar');

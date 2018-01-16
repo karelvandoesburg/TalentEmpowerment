@@ -26,19 +26,19 @@
         width:45vw;
     }
     #text-container-3 {
-        width:46vw;
+        width:52vw;
     }
     #text-container-4 {
         width:31vw;
     }
 }
 
-@media screen and (max-width: 670px) {
+@media screen and (min-width: 670px) {
     #bartext-computer {
-        opacity: 0;
+        opacity: 1;
     }
     
     #bartext-mobile {
-        opacity: 1;
+        opacity: 0;
     }
 }

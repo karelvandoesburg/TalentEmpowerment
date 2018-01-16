@@ -1,11 +1,18 @@
 $(window).ready(function() {
+    skipIntroductionPage();
     setIntroImageDimensions();
     setMarginTop();
     changeBackgroundSize();
-    backgroundAnimation();
     processMobile();
-    skipIntroductionPage();
+    timeoutBackgroundanimation();
+    $bartextcomputer.css({'opacity' : '0'});
 });
+
+function timeoutBackgroundanimation() {
+    setTimeout(function(){
+        backgroundAnimation();
+    }, 300);
+}
 
 function backgroundAnimation() {
     moveDownCover();
@@ -60,6 +67,8 @@ function makeMoveCover() {
 function processMobile() {
     if(isMobileDevice()) {
         $homegrid.removeClass("computer");
+        $bartextmobile.css({'opacity':'1'});
+        $bartextcomputer.remove();
     }
 }
 

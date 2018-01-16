@@ -1,4 +1,4 @@
-#section-wrapper {
+#home-sectionwrapper {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -62,7 +62,7 @@
     filter: blur(10px);
 }
 
-#bar {
+#home-bar {
     float:left;
     opacity: 0;
     width:100%;
@@ -72,7 +72,7 @@
     text-align: right;
 }
 
-.bartext {
+.home-bartext {
     position: absolute;
     text-align:right;
     color:$offwhite;
@@ -87,26 +87,20 @@
     }
 }
 
-#bartext-computer {
+#home-bartextcomputer {
     opacity: 0;
 }
 
-#bartext-mobile {
+#home-bartextmobile {
     opacity: 1;
 }
 
-#bar-logo {
-    opacity:0;
+#home-barlogo {
+    opacity:1;
     margin-top:0.4vh;
     margin-left:0.4vh;
     height:85%;
     float:left;
-}
-
-#grid-1 {
-    position:relative;
-    width:100%;
-    height:66%;
 }
 
 #home-gridlinksboven {
@@ -192,13 +186,6 @@
     }
 }
 
-#grid-2 {
-    position:relative;
-    width: 100%;
-    height: 32vh;
-    text-align: center;
-}
-
 #home-gridrechtsonder {
     width: 50%;
     height: 32vh;
@@ -206,7 +193,7 @@
     text-align: right;
 }
 
-#context {
+#home-context {
     position: absolute;
     top :30px;
     left:50%;
@@ -219,7 +206,7 @@
     opacity:0;
 }
 
-#shield {
+#home-shield {
     position: absolute;
     width:100%;
     height:100%;

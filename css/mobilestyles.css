@@ -1,60 +1,3 @@
-@font-face {
-  font-family: Anton;
-  src: url("fonts/Oswald/Oswald-Light.ttf"); }
-
-@font-face {
-  font-family: Oswald-ExtraLight;
-  src: url("fonts/Oswald/Oswald-ExtraLight.ttf"); }
-
-@font-face {
-  font-family: Oswald-Regular;
-  src: url("fonts/Oswald/Oswald-Regular.ttf"); }
-
-@font-face {
-  font-family: Oswald-Medium;
-  src: url("fonts/Oswald/Oswald-Medium.ttf"); }
-
-@font-face {
-  font-family: Oswald-Bold;
-  src: url("fonts/Oswald/Oswald-Bold.ttf"); }
-
-@font-face {
-  font-family: CreteRound-SemiBoldItalic;
-  src: url("fonts/CreteRound/CreteRound-Italic.ttf"); }
-
-@font-face {
-  font-family: Raleway-Medium;
-  src: url("fonts/Raleway/Raleway-medium.ttf"); }
-
-@font-face {
-  font-family: Raleway-Regular;
-  src: url("fonts/Raleway/Raleway-regular.ttf"); }
-
-@font-face {
-  font-family: Raleway-Bold;
-  src: url("fonts/Raleway/Raleway-bold.ttf"); }
-
-@font-face {
-  font-family: Raleway-Light;
-  src: url("fonts/Raleway/Raleway-Light.ttf"); }
-
-@font-face {
-  font-family: Raleway-ExtraLight;
-  src: url("fonts/Raleway/Raleway-ExtraLight.ttf"); }
-
-@font-face {
-  font-family: Raleway-LightItalic;
-  src: url("fonts/Raleway/Raleway-LightItalic.ttf"); }
-
-* {
-  list-style-type: none;
-  font-family: "Raleway";
-  font-weight: 400;
-  color: #585757;
-  text-align: center; }
-  * ul {
-    padding: 0; }
-
 h1 {
   text-align: center;
   font-family: "Raleway";
@@ -77,14 +20,14 @@ h2 {
 h3 {
   color: #585757; }
 
-.streepje {
+.cc-streepje {
   height: 1px;
   background-color: #2cdf11;
   width: 100%;
   margin-top: 40px;
   float: left; }
 
-.heading {
+.cc-heading {
   position: absolute;
   margin-top: -20px;
   width: 400px;
@@ -93,6 +36,39 @@ h3 {
   left: 50%;
   margin-left: -200px;
   float: left; }
+
+.cc-lijstpersonen {
+  margin-top: 200px;
+  margin-left: 20px;
+  list-style-type: none; }
+  .cc-lijstpersonen .cc-persoon {
+    width: 100%;
+    height: 600px;
+    margin-top: 20px;
+    float: left; }
+  .cc-lijstpersonen img {
+    width: 400px;
+    border-radius: 5px 5px 5px 5px; }
+
+.cc-profiel .gegeven {
+  margin-top: 2px;
+  text-align: center;
+  list-style-type: none;
+  height: 25px;
+  width: 100%; }
+
+.cc-profiel .gegeven:first-child {
+  font-family: "Raleway";
+  font-weight: 700; }
+
+* {
+  list-style-type: none;
+  font-family: "Raleway";
+  font-weight: 400;
+  color: #585757;
+  text-align: center; }
+  * ul {
+    padding: 0; }
 
 .ul1 {
   margin-top: 20px;
@@ -139,30 +115,6 @@ h3 {
 #heading2 {
   width: 350px;
   margin-left: -175px; }
-
-.lijstpersonen {
-  margin-top: 200px;
-  margin-left: 20px;
-  list-style-type: none; }
-  .lijstpersonen .hockeybaas {
-    width: 100%;
-    height: 600px;
-    margin-top: 20px;
-    float: left; }
-  .lijstpersonen img {
-    width: 400px;
-    border-radius: 5px 5px 5px 5px; }
-
-.profiel .gegeven {
-  margin-top: 2px;
-  text-align: center;
-  list-style-type: none;
-  height: 25px;
-  width: 100%; }
-
-.profiel .gegeven:first-child {
-  font-family: "Raleway";
-  font-weight: 700; }
 
 #hot-header {
   margin-top: 50px; }

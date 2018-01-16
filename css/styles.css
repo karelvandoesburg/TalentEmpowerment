@@ -582,31 +582,31 @@
   width: 250px; }
 
 @media screen and (max-width: 1000px) {
-  #home-picture-1 {
+  #home-gridlinksboven {
     width: 100%; }
-  #home-picture-3 {
+  #home-gridrechtsboven {
     width: 100%;
     float: left; }
-  #home-picture-5 {
+  #home-gridlinksonder {
     width: 100%; }
-  #home-picture-6 {
+  #home-gridrechtsonder {
     width: 100%;
     float: left; }
   .home-grid h1, .home-grid h2 {
     font-size: 8vw; }
-  #text-container-1 {
+  #home-tekstlinksboven {
     width: 42vw; }
-  #text-container-2 {
+  #home-tekstrechtsboven {
     width: 45vw; }
-  #text-container-3 {
+  #home-tekstlinksonder {
     width: 52vw; }
-  #text-container-4 {
+  #home-tekstrechtsonder {
     width: 31vw; } }
 
 @media screen and (min-width: 670px) {
-  #bartext-computer {
+  #home-bartextcomputer {
     opacity: 1; }
-  #bartext-mobile {
+  #home-bartextmobile {
     opacity: 0; } }
 
 #cc-context {
